@@ -513,9 +513,11 @@ a.pagination-item:hover {
     text-transform: none;
 }
 
-.post-stub-date {
+.post-date-overivew {
     display: inline-block;
     float: right;
+    margin-top: -2.4rem;
+    padding-right: 10px;
 }
 
 .next-posts-link a, .previous-posts-link a {
@@ -537,4 +539,50 @@ a.pagination-item:hover {
     margin-left: 0px;
     width: 100%;
     padding: 15px;
+}
+
+.post-list li {
+    list-style: none !important;
+}
+
+.post-list li:hover a > h4 {
+    color: #ac4142 !important;
+}
+.post-stub {
+    border-bottom: 1px dotted #303030;
+    margin: 0;
+    position: relative;
+}
+.post-stub:first-child {
+    padding-top: 0;
+}
+ .post-stub a {
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    display: block;
+    color: #424242;
+    padding: 20px 5px;
+}
+
+
+
+.post-stub a:hover {
+    background: #FCF5F5;
+    color: #F03838 !important;
+    padding: 20px 12px;
+}
+.post-stub a:hover .post-stub-tag {
+    background: #F03838;
+}
+
+.post-stub-tag {
+    background: #303030;
+    border-radius: 3px;
+    color: #FFF;
+    float: right;
+    font-size: 10px;
+    margin: 7px 0 0;
+    padding: 0 5px;
+    text-transform: uppercase;
 }
