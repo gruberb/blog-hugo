@@ -1,0 +1,11 @@
+.personal {
+  position: fixed;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -30%);
+}
+
+.img-circle {
+  border-radius: 50%;
+  width: 200px;
+}

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bastian Gruber</title>
+    <link>http://gruberbastian.com/tags/about/index.xml</link>
+    <description>Recent content on Bastian Gruber</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="http://gruberbastian.com/tags/about/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>About</title>
+      <link>http://gruberbastian.com/post/about/</link>
+      <pubDate>Mon, 03 Oct 2016 16:37:27 +0200</pubDate>
+      
+      <guid>http://gruberbastian.com/post/about/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://s3.eu-central-1.amazonaws.com/gruberb-blog/me.jpg&#34; alt=&#34;picture of Bastian Gruber&#34;/&gt;&lt;/p&gt;
+
+&lt;p&gt;That&amp;rsquo;s me, Bastian, a passionate software developer. I am using Go, JavaScript and HTML/CSS to create web applications, and always keen and happy to help a software project to thrive. Next to coding I am a tech writer, mostly for Apple magazines. I also contribute to various german tech magazines. Those two professions let me earn enough money to appreciate and learn other hobbies like photography and improvisation theatre.&lt;/p&gt;
+
+&lt;p&gt;It&amp;rsquo;s hard to define languages and skills, since I am constantly challenged with new architectures, ideas and platforms. But, I am very comfortable using following tools to help your project:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;JavaScript (NodeJS, AngularJS 1 + 2, ReactJS)&lt;/li&gt;
+&lt;li&gt;Go (with Echo for web applications)&lt;/li&gt;
+&lt;li&gt;MongoDB&lt;/li&gt;
+&lt;li&gt;Hosting via AWS or Heroku&lt;/li&gt;
+&lt;li&gt;Testing with Jasmine, Mocha and Sinon&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I also implement code patterns and &amp;ldquo;behaviours&amp;rdquo;:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Testing first, then implementing the functionality (TDD)&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Object Oriented Programming (OOP)&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Functional Programming (FP)&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Most of the time, it&amp;rsquo;s a mix of all three paradigms. The overall architecture is most of the time object oriented, with small functions with no side effects. It&amp;rsquo;s great to implement the tests first, so I have a guidance while implementing the feature.&lt;/p&gt;
+
+&lt;p&gt;Feel free to look at my projects at &lt;a href=&#34;https://github.com/gruberb&#34;&gt;GitHub&lt;/a&gt; and follow me on &lt;a href=&#34;https://twitter.com/bastiangruber&#34;&gt;twitter&lt;/a&gt;. If you want to have a detailed CV with projects I&amp;rsquo;ve worked on, have a look at my &lt;a href=&#34;https://de.linkedin.com/in/bastiangruber&#34;&gt;LinkedIn profile&lt;/a&gt;.&lt;/p&gt;
+
+&lt;div class=&#34;bubble&#34;&gt;
+  &lt;p&gt;&#34;I have had the great pleasure to work with Bastian at smartB long enough to say a couple of things about him. Bastian is curious and self-motivated. He&#39;ll find a way to do things better and improve quality. The challenge from a management perspective is keeping him continuously motivated. As an exceptional developer requires an exceptional management to make sure he is able to deliver software while being challenged to do so. Bastian is a problem solver and someone I would definitely pursue for any company I work for.&#34;&lt;/p&gt;
+  &lt;span class=&#34;name&#34;&gt;
+    &lt;a href=&#34;https://www.linkedin.com/in/jeronimopalacios?authType=name&amp;authToken=wPHz&#34;&gt;
+      Jerónimo Palacios &lt;br /&gt;Agile &amp; Lean Coach
+    &lt;/a&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;bubble&#34;&gt;
+  &lt;p&gt;&#34;I had the chance to work with Bastian in Glispa in different projects. Whether it&#39;s HTML/CSS or Javascript, he&#39;s equally capable to both craft a state-of-the-art web project or to rework an existing one. He has a good critical sense, and he&#39;s capable of finding what&#39;s wrong on interfaces pointing his attention on both UX and UI. It was a pleasure to work with Bastian and I definitely recommend him if you have to make something nice and quickly.&#34;&lt;/p&gt;
+  &lt;span class=&#34;name&#34;&gt;
+    &lt;a href=&#34;https://www.linkedin.com/in/inikolskaya?authType=name&amp;authToken=XXR5&#34;&gt;
+      Irina Nikolskaya &lt;br /&gt;Senior QA Engineer
+    &lt;/a&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;bubble&#34;&gt;
+  &lt;p&gt;&#34;I had the pleasure of working with Bastian at glispa, collaborating on several projects, including Voltu. I was totally impressed by his ability to juggle multiple projects, it was unlike any I’ve seen before and made a dramatic difference in the productivity and professional level of our team.
+
+  As a person, Bastian has a bright entrepreneurial mindset. He shares his knowledge and constantly improves skills to build meaningful things.
+
+  Bastian would be a true asset to any team, because he is a talented, hard-working and warm co-worker! &#34;&lt;/p&gt;
+  &lt;span class=&#34;name&#34;&gt;
+    &lt;a href=&#34;https://www.linkedin.com/in/andreyorsoev?authType=name&amp;authToken=V55F&#34;&gt;
+      Andrey Orsoev &lt;br /&gt;Senior Software Engineer
+    &lt;/a&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

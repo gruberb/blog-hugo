@@ -1,0 +1,8 @@
+baseurl = "http://gruberbastian.com/"
+languageCode = "en-us"
+title = "Bastian Gruber"
+theme = "hyde"
+
+[params]
+  themeColor = "theme-base-08"
+  description = "Freelance Software Developer"
