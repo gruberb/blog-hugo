@@ -1,7 +1,6 @@
 +++
 Categories = ["Development", "GoLang"]
 Description = ""
-featured
 Tags = ["about", "golang"]
 date = "2016-10-03T16:37:27+02:00"
 menu = "main"

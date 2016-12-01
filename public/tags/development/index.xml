@@ -48,9 +48,11 @@
       <guid>http://gruberbastian.com/post/projects/</guid>
       <description>
 
+&lt;p&gt;&lt;img src=&#34;https://s3.eu-central-1.amazonaws.com/gruberb-blog/focus.jpg&#34; alt=&#34;picture of Bastian Gruber&#34;/&gt;&lt;/p&gt;
+
 &lt;h3 id=&#34;livingroomart-a-href-https-github-com-gruberb-livingroomart-i-class-fa-fa-github-aria-hidden-true-i-a-a-href-http-livingroomart-frontend-herokuapp-com-i-class-fa-fa-globe-aria-hidden-true-i-a&#34;&gt;LivingRoomArt (&lt;a href=&#34;https://github.com/gruberb/LivingRoomArt&#34;&gt;&lt;i class=&#34;fa fa-github&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;&lt;/a&gt;/&lt;a href=&#34;http://livingroomart-frontend.herokuapp.com/&#34;&gt;&lt;i class=&#34;fa fa-globe&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;&lt;/a&gt;)&lt;/h3&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://s3.eu-central-1.amazonaws.com/gruberb-blog/Bildschirmfoto+2016-11-04+um+2.17.33+PM.png&#34; title=&#34;LivingroomArt&#34;/&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://s3.eu-central-1.amazonaws.com/gruberb-blog/la.png&#34; title=&#34;LivingroomArt&#34;/&gt;&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Frontend: AngularJS&lt;/li&gt;
@@ -61,7 +63,7 @@
 
 &lt;h3 id=&#34;opendecision-a-href-https-github-com-gruberb-opendecision-i-class-fa-fa-github-aria-hidden-true-i-a-a-href-https-opendecision-frontend-herokuapp-com-registration-i-class-fa-fa-globe-aria-hidden-true-i-a&#34;&gt;OpenDecision (&lt;a href=&#34;https://github.com/gruberb/OpenDecision&#34;&gt;&lt;i class=&#34;fa fa-github&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;&lt;/a&gt;/&lt;a href=&#34;https://opendecision-frontend.herokuapp.com/#/registration&#34;&gt;&lt;i class=&#34;fa fa-globe&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;&lt;/a&gt;)&lt;/h3&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://s3.eu-central-1.amazonaws.com/gruberb-blog/Bildschirmfoto+2016-11-04+um+2.36.23+PM.png&#34; title=&#34;OpenDecision&#34;/&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://s3.eu-central-1.amazonaws.com/gruberb-blog/od.png&#34; title=&#34;OpenDecision&#34;/&gt;&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Frontend: AngularJS&lt;/li&gt;
@@ -71,7 +73,7 @@
 
 &lt;h3 id=&#34;chartistdirective-a-href-https-github-com-gruberb-chartistangulardirective-i-class-fa-fa-github-aria-hidden-true-i-a&#34;&gt;ChartistDirective (&lt;a href=&#34;https://github.com/gruberb/chartistAngularDirective&#34;&gt;&lt;i class=&#34;fa fa-github&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;&lt;/a&gt;)&lt;/h3&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://s3.eu-central-1.amazonaws.com/gruberb-blog/Bildschirmfoto+2016-11-04+um+2.39.08+PM.png&#34; title=&#34;ChartistDirective&#34;/&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://s3.eu-central-1.amazonaws.com/gruberb-blog/ca.png&#34; title=&#34;ChartistDirective&#34;/&gt;&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;AngularJS&lt;/li&gt;
@@ -79,7 +81,7 @@
 
 &lt;h3 id=&#34;companylunch-a-href-https-github-com-gruberb-companylunch-i-class-fa-fa-github-aria-hidden-true-i-a-a-href-https-companylunch-frontend-herokuapp-com-i-class-fa-fa-globe-aria-hidden-true-i-a&#34;&gt;CompanyLunch (&lt;a href=&#34;https://github.com/gruberb/CompanyLunch&#34;&gt;&lt;i class=&#34;fa fa-github&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;&lt;/a&gt;/&lt;a href=&#34;https://companylunch-frontend.herokuapp.com/&#34;&gt;&lt;i class=&#34;fa fa-globe&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;&lt;/a&gt;)&lt;/h3&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://s3.eu-central-1.amazonaws.com/gruberb-blog/Bildschirmfoto+2016-11-04+um+2.40.20+PM.png&#34; title=&#34;CompanyLunch&#34;/&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://s3.eu-central-1.amazonaws.com/gruberb-blog/rr.png&#34; title=&#34;CompanyLunch&#34;/&gt;&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Frontend: ReactJS&lt;/li&gt;
