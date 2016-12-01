@@ -18,7 +18,9 @@ fi
 git commit -m "$msg"
 
 # Push source and build repos.
-git push origin master 
+git push origin master
+
+git subtree push --prefix=public git@github.com:gruberb/blog-hugo.git master
 
 # Come Back
 cd ..
