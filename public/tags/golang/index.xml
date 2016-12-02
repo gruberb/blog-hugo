@@ -75,7 +75,7 @@
 &lt;li&gt;JavaScript (NodeJS, AngularJS 1 + 2, ReactJS)&lt;/li&gt;
 &lt;li&gt;Go (with Echo for web applications)&lt;/li&gt;
 &lt;li&gt;MongoDB&lt;/li&gt;
-&lt;li&gt;Hosting via AWS or Heroku&lt;/li&gt;
+&lt;li&gt;Deployment via Docker on AWS, Heroku or DockerCloud&lt;/li&gt;
 &lt;li&gt;Testing with Jasmine, Mocha and Sinon&lt;/li&gt;
 &lt;/ul&gt;
 

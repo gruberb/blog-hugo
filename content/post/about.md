@@ -17,7 +17,7 @@ It's hard to define languages and skills, since I am constantly challenged with 
 - JavaScript (NodeJS, AngularJS 1 + 2, ReactJS)
 - Go (with Echo for web applications)
 - MongoDB
-- Hosting via AWS or Heroku
+- Deployment via Docker on AWS, Heroku or DockerCloud 
 - Testing with Jasmine, Mocha and Sinon
 
 I also implement code patterns and "behaviours":  
