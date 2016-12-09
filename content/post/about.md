@@ -15,10 +15,11 @@ That's me, Bastian, a passionate software developer. I am using Go, JavaScript a
 It's hard to define languages and skills, since I am constantly challenged with new architectures, ideas and platforms. But, I am very comfortable using following tools to help your project:  
 
 - JavaScript (NodeJS, AngularJS 1 + 2, ReactJS)
-- Go (with Echo for web applications)
+- Go
 - MongoDB
-- Deployment via Docker on AWS, Heroku or DockerCloud 
-- Testing with Jasmine, Mocha and Sinon
+- Deployment via Docker on AWS (and others like Heroku)
+- Continous deployment and delivery
+- Testing with Jasmine, Mocha, Sinon and ShouldJS
 
 I also implement code patterns and "behaviours":  
 
