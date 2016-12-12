@@ -1,7 +1,7 @@
 +++
-Categories = ["Development", "GoLang"]
-Description = ""
-Tags = ["Development", "golang"]
+categories = ["Development", "GoLang"]
+description = ""
+tags = []
 date = "2016-10-08T14:37:04+02:00"
 menu = "main"
 title = "Pet Projects"
