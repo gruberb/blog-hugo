@@ -8,7 +8,18 @@ title = "Pet Projects"
 
 +++
 <img src="https://s3.eu-central-1.amazonaws.com/gruberb-blog/focus.jpg" alt="picture of Bastian Gruber"/>
+<br />
+<h2>All the little things</h2>
+<ul>
+    <li><a href="https://github.com/gruberb/CS193P-2016-iOS9">iOS app: Calculator [Swift]</a></li>
+    <li><a href="https://github.com/gruberb/firemarksBackend">Bookmarking Service backend [Golang]</a></li>
+    <li><a href="https://github.com/gruberb/NumberGuessing">Number guessing game [Rust]</a></li>
+    <li><a href="https://github.com/gruberb/ImageRecon">Image AI tool [NodeJS, GoogleVisionAPI]</a></li>
+    <li><a href="https://github.com/gruberb/TwitterWhoUnfollowedYou">Who unfollowed you on twitter? [Python]</a></li>
+</ul>
 
+  
+<h2>Grown up projects</h2>
 ### LivingRoomArt (<a href="https://github.com/gruberb/LivingRoomArt"><i class="fa fa-github" aria-hidden="true"></i></a>/<a href="http://livingroomart-frontend.herokuapp.com/"><i class="fa fa-globe" aria-hidden="true"></i></a>)
 <img src="https://s3.eu-central-1.amazonaws.com/gruberb-blog/la.png" title="LivingroomArt"/>
 

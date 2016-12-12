@@ -16,7 +16,18 @@
       <guid>http://gruberbastian.com/post/projects/</guid>
       <description>
 
-&lt;p&gt;&lt;img src=&#34;https://s3.eu-central-1.amazonaws.com/gruberb-blog/focus.jpg&#34; alt=&#34;picture of Bastian Gruber&#34;/&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://s3.eu-central-1.amazonaws.com/gruberb-blog/focus.jpg&#34; alt=&#34;picture of Bastian Gruber&#34;/&gt;
+&lt;br /&gt;
+&lt;h2&gt;All the little things&lt;/h2&gt;
+&lt;ul&gt;
+    &lt;li&gt;&lt;a href=&#34;https://github.com/gruberb/CS193P-2016-iOS9&#34;&gt;iOS app: Calculator [Swift]&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;https://github.com/gruberb/firemarksBackend&#34;&gt;Bookmarking Service backend [Golang]&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;https://github.com/gruberb/NumberGuessing&#34;&gt;Number guessing game [Rust]&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;https://github.com/gruberb/ImageRecon&#34;&gt;Image AI tool [NodeJS, GoogleVisionAPI]&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;https://github.com/gruberb/TwitterWhoUnfollowedYou&#34;&gt;Who unfollowed you on twitter? [Python]&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;h2&gt;Grown up projects&lt;/h2&gt;&lt;/p&gt;
 
 &lt;h3 id=&#34;livingroomart-a-href-https-github-com-gruberb-livingroomart-i-class-fa-fa-github-aria-hidden-true-i-a-a-href-http-livingroomart-frontend-herokuapp-com-i-class-fa-fa-globe-aria-hidden-true-i-a&#34;&gt;LivingRoomArt (&lt;a href=&#34;https://github.com/gruberb/LivingRoomArt&#34;&gt;&lt;i class=&#34;fa fa-github&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;&lt;/a&gt;/&lt;a href=&#34;http://livingroomart-frontend.herokuapp.com/&#34;&gt;&lt;i class=&#34;fa fa-globe&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;&lt;/a&gt;)&lt;/h3&gt;
 

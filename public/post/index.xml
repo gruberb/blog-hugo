@@ -17,17 +17,17 @@
       <guid>http://gruberbastian.com/post/devops/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;https://s3.eu-central-1.amazonaws.com/gruberb-blog/scrum.jpg&#34; /&gt;&lt;/p&gt;
 
-&lt;p&gt;For my latest client, I got hired as a Fullstack JavaScript developer, plus DevOps, plus Frontend. The project is to rebuild the old PHP codebase onto a new stack containing Node, Angular and Microservices. The deployment is done via Docker and DockerCloud, hosted partly on AWS servers. As complicated as it sounds, new projects don&amp;rsquo;t have the nitty gritty problems legacy systems have. I think, what you have to bring to such a project is a broad understanding of each technology and how they can interact with together.&lt;/p&gt;
+&lt;p&gt;For my latest client, I got hired as a Fullstack JavaScript developer, plus DevOps, plus Frontend. The project is to rebuild the old PHP codebase onto a new stack containing Node, Angular and Microservices. The deployment is done via Docker and DockerCloud, hosted partly on AWS servers. As complicated as it sounds, new projects don&amp;rsquo;t have the nitty gritty problems legacy systems have. I think what you have to bring to such a project is a broad understanding of each technology and how they interact together.&lt;/p&gt;
 
-&lt;p&gt;My previous position was as a Senior Frontend Developer, working with Angular 1 and 2. There, you have to have a deep understanding of the framework, and where to get the latest percentages of performance out. And, how to refactor constantly an ever growing codebase. So sometimes, people I am telling I help to setup the whole stack, they think you have to have a really deep understanding in every technology I touch. But sometimes, it&amp;rsquo;s just not needed and possible. You can set up a MongoDB database for a certain microservice, and knowing this form of database works fine. Later on, you can hire a Mongo specialist or look deeper in how to scale and improve performance with this certain technology.&lt;/p&gt;
+&lt;p&gt;My previous position was as a Senior Frontend Developer, working with Angular 1 and 2. There, you have to have a deep understanding of the framework, and how to get the latest percentages of performance out. As well as how to constantly refactor an ever growing codebase. So sometimes people think that to setup the whole stack, they have to have a really deep understanding of every technology. But sometimes, it&amp;rsquo;s just not needed. You can set up a MongoDB database for a certain microservice, just knowing this form of database works fine. Later on, you can hire a Mongo specialist or look deeper into how to scale and improve performance with this technology.&lt;/p&gt;
 
-&lt;p&gt;This gives you a lot of freedom, but also responsibility. What I touch at the moment the most, is the so called &amp;ldquo;DevOps&amp;rdquo;. When your last project was implementing NodeJS patterns and structure, you sort of feel the beauty of the pure analytical work of setting up, and monitoring services. There is no big guessing or &amp;ldquo;lets see&amp;rdquo; factor. At least not at the level as pure programming has. Finally, you have to have a clear picture of which service should talk to which, how they should give feedback and how and with which tools you meassure performance.&lt;/p&gt;
+&lt;p&gt;This gives you a lot of freedom, but also responsibility. What I deal with at the moment, are the so called &amp;ldquo;DevOps&amp;rdquo;. Since my last project was implementing NodeJS patterns and structure, I sort of feel the beauty of the pure analytical work of setting up and monitoring services. There is no big guessing or &amp;ldquo;let&amp;rsquo;s see&amp;rdquo; factor. It&amp;rsquo;s different approach then pure programming. Finally, you have to have a clear picture of which service should talk to which, how they should give feedback and how and with which tools you measure performance.&lt;/p&gt;
 
-&lt;p&gt;Again, all the little details can be nasty and hard, but for the first few days after this shift in perspectives, you have the feeling of power and overview of the system. In return, it helps to understand when a service should respond with critical feedback, and how this feedback should look like. Sometimes, I think, starting from this perspective can help deciding which service should contain which logic, and how big a certain micros service should get.&lt;/p&gt;
+&lt;p&gt;Again, all the little details can be nasty and hard, but for the first few days after this shift in perspective, you have the feeling of power and overview of the system. In return, it helps to understand when a service should respond with critical feedback, and what this feedback should look like. Sometimes, Sometimes I think, starting from this perspective can help decide which service should contain which logic, and how big a certain microservice should get.&lt;/p&gt;
 
-&lt;p&gt;As a front end developer, I appreciate to start the project with a clear UX/UI guideline and idea. From a backend developer perspective, I now appreciate the DevOps-First perspective. It helps how the system should respond in which occasion, and after that, you know how to structure and design your code base.&lt;/p&gt;
+&lt;p&gt;As a front end developer, I appreciate starting the project with a clear UX/UI guideline and idea. From a backend developer perspective, I now appreciate the DevOps-First perspective. Once you know how the system should respond in different situations, than you know you how to structure your codebase.&lt;/p&gt;
 
-&lt;p&gt;Therefore, implementing a monitoring microservice, which receives important messages from other services, sends them to an InfluxDB, and Grafana takes this data to display the current affairs. Seeing how well and nicely this all plays out gives every developer a warm heart. What can you ask more just before Christmas?&lt;/p&gt;
+&lt;p&gt;Implementing a monitoring microservice, which receives important messages from other services, sends them to an InfluxDB, and Grafana takes this data to display the current affairs. Seeing how well and nicely this all plays out gives every developer a warm heart. What more can you ask for just before Christmas?&lt;/p&gt;
 </description>
     </item>
     
@@ -91,7 +91,18 @@ Not alone this, but the architecture of big and wide streets and sometimes narro
       <guid>http://gruberbastian.com/post/projects/</guid>
       <description>
 
-&lt;p&gt;&lt;img src=&#34;https://s3.eu-central-1.amazonaws.com/gruberb-blog/focus.jpg&#34; alt=&#34;picture of Bastian Gruber&#34;/&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://s3.eu-central-1.amazonaws.com/gruberb-blog/focus.jpg&#34; alt=&#34;picture of Bastian Gruber&#34;/&gt;
+&lt;br /&gt;
+&lt;h2&gt;All the little things&lt;/h2&gt;
+&lt;ul&gt;
+    &lt;li&gt;&lt;a href=&#34;https://github.com/gruberb/CS193P-2016-iOS9&#34;&gt;iOS app: Calculator [Swift]&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;https://github.com/gruberb/firemarksBackend&#34;&gt;Bookmarking Service backend [Golang]&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;https://github.com/gruberb/NumberGuessing&#34;&gt;Number guessing game [Rust]&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;https://github.com/gruberb/ImageRecon&#34;&gt;Image AI tool [NodeJS, GoogleVisionAPI]&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;https://github.com/gruberb/TwitterWhoUnfollowedYou&#34;&gt;Who unfollowed you on twitter? [Python]&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;h2&gt;Grown up projects&lt;/h2&gt;&lt;/p&gt;
 
 &lt;h3 id=&#34;livingroomart-a-href-https-github-com-gruberb-livingroomart-i-class-fa-fa-github-aria-hidden-true-i-a-a-href-http-livingroomart-frontend-herokuapp-com-i-class-fa-fa-globe-aria-hidden-true-i-a&#34;&gt;LivingRoomArt (&lt;a href=&#34;https://github.com/gruberb/LivingRoomArt&#34;&gt;&lt;i class=&#34;fa fa-github&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;&lt;/a&gt;/&lt;a href=&#34;http://livingroomart-frontend.herokuapp.com/&#34;&gt;&lt;i class=&#34;fa fa-globe&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;&lt;/a&gt;)&lt;/h3&gt;
 
