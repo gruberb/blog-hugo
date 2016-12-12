@@ -16,6 +16,6 @@ This gives you a lot of freedom, but also responsibility. What I touch at the mo
 
 Again, all the little details can be nasty and hard, but for the first few days after this shift in perspectives, you have the feeling of power and overview of the system. In return, it helps to understand when a service should respond with critical feedback, and how this feedback should look like. Sometimes, I think, starting from this perspective can help deciding which service should contain which logic, and how big a certain micros service should get.
 
-As a front end developer, I appreciate to start the project with a clear UX/UI guideline and idea. From a backend developer perspective, I know appreciate an approach first designed by the DevOps perspective. It helps how the system should respond in which occasion, and after that, you know how to structure and design your code base.
+As a front end developer, I appreciate to start the project with a clear UX/UI guideline and idea. From a backend developer perspective, I now appreciate the DevOps-First perspective. It helps how the system should respond in which occasion, and after that, you know how to structure and design your code base.
 
 Therefore, implementing a monitoring microservice, which receives important messages from other services, sends them to an InfluxDB, and Grafana takes this data to display the current affairs. Seeing how well and nicely this all plays out gives every developer a warm heart. What can you ask more just before Christmas?
