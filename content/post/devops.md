@@ -1,7 +1,7 @@
 +++
 categories = ["DevOps"]
 description = ""
-tags = ["aws", "grafana"]
+tags = ["work"]
 date = "2016-12-12T20:37:04+02:00"
 title = "The beauty of DevOps"
 +++

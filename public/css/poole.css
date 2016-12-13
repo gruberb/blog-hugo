@@ -597,3 +597,15 @@ a.pagination-item:hover {
     margin-left: 2px;
     font-size: 0.8em;
 }
+
+@media (max-width: 460px) {
+    .big {
+        display: none;
+    }
+}
+
+@media (min-width: 461px) {
+    .small {
+        display: none;
+    }
+}
