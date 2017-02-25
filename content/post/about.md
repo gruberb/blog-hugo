@@ -29,7 +29,7 @@ I also implement code patterns and "behaviours":
 
 Most of the time, it's a mix of all three paradigms. The overall architecture is most of the time object oriented, with small functions with no side effects. It's great to implement the tests first, so I have a guidance while implementing the feature.
 
-Feel free to look at my projects at <a href="https://github.com/gruberb">GitHub</a> and follow me on <a href="https://twitter.com/bastiangruber">twitter</a>. If you want to have a detailed CV with projects I've worked on, have a look at my <a href="https://de.linkedin.com/in/bastiangruber">LinkedIn profile</a>.
+Feel free to look at my projects at <a href="https://github.com/gruberb">GitHub</a>. If you want to have a detailed CV with projects I've worked on, have a look at my <a href="https://de.linkedin.com/in/bastiangruber">LinkedIn profile</a>.
 
 <div class="bubble">
   <p>"I have had the great pleasure to work with Bastian at smartB long enough to say a couple of things about him. Bastian is curious and self-motivated. He'll find a way to do things better and improve quality. The challenge from a management perspective is keeping him continuously motivated. As an exceptional developer requires an exceptional management to make sure he is able to deliver software while being challenged to do so. Bastian is a problem solver and someone I would definitely pursue for any company I work for."</p>
