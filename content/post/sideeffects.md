@@ -8,16 +8,16 @@ date = "2017-02-27T09:51:55+01:00"
 
 For quite a long time now, I am reading those two books:
 
-- Early retirement extreme
-- Your money or your life
+- <a href="http://www.goodreads.com/book/show/9519944-early-retirement-extreme?from_search=true">Early retirement extreme</a>
+- <a href="http://www.goodreads.com/book/show/78428.Your_Money_or_Your_Life">Your money or your life</a>
 
 Both titles suggest that all those book care about is earning lots of money and then taking a rest. However, after reading the first few pages it becomes clear that the goal of those books are to provide you with a new mindset of your life.
 
-You can say all those hipsters around big cities trying to do the same: Eeat more local, cook your own food, be aware of what you destroy. In addition, Yoga and eastern philosophies are becoming trendy as well. Be one with your environment, be aware of your needs and yourself.
+You can say all those hipsters around big cities trying to do the same: Eat more local, cook your own food, be aware of what you destroy. In addition, Yoga and eastern philosophies are becoming trendy as well. Be one with your environment, be aware of your needs and yourself.
 
 But we in the western world live a rather consumerist life style, and this is where the two titles from the beginning want to make a change.
 
-Inspired by all of those ideas, and a long history of my own with trying things out and putting be to the edge, I tried to combine all of those ideas to make some life changes as well:
+Inspired by all of those ideas, and a long history of my own with trying things out and putting me to the edge, I tried to combine all of those ideas to make some life changes as well:
 
 - Going from an iPhone to a dump phone (Nokia 150)
 - Biking to work (15km return)
