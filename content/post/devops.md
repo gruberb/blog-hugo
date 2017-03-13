@@ -6,7 +6,7 @@ date = "2016-12-12T20:37:04+02:00"
 title = "The beauty of DevOps"
 +++
 
-<img src="https://s3.eu-central-1.amazonaws.com/gruberb-blog/scrum.jpg" />
+<img src="https://image.ibb.co/imDDmF/scrum.jpg" />
 
 For my latest client, I got hired as a Fullstack JavaScript developer, plus DevOps, plus Frontend. The project is to rebuild the old PHP codebase onto a new stack containing Node, Angular and Microservices. The deployment is done via Docker and DockerCloud, hosted partly on AWS servers. As complicated as it sounds, new projects don't have the nitty gritty problems legacy systems have. I think what you have to bring to such a project is a broad understanding of each technology and how they interact together.  
 
