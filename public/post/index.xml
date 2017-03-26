@@ -6,8 +6,83 @@
     <description>Recent content in Post-rsses on Bastian Gruber</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 27 Feb 2017 09:51:55 +0100</lastBuildDate>
+    <lastBuildDate>Sun, 26 Mar 2017 10:20:55 +0100</lastBuildDate>
     <atom:link href="http://gruberbastian.com/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Get started with BeagleBone</title>
+      <link>http://gruberbastian.com/post/go-beaglebone/</link>
+      <pubDate>Sun, 26 Mar 2017 10:20:55 +0100</pubDate>
+      
+      <guid>http://gruberbastian.com/post/go-beaglebone/</guid>
+      <description>
+
+&lt;h1 id=&#34;get-started-with-beaglebone&#34;&gt;Get started with BeagleBone&lt;/h1&gt;
+
+&lt;p&gt;I have to admit, the power of IoT did not yet reach my little nerd life here in Berlin. Therefore, I took an effort this year and went to an IoT Hackathon. It was a fun weekend, I think there were just 5 developers and the rest of the crowd came from a social and educational background. Which made it even more fun and interesting.&lt;/p&gt;
+
+&lt;p&gt;Anyway, since this weekend I ordered a RaspberryPi and tried to do something useful with it. This idea, and my other habit of simplyfing my life clashed a little bit. So the RaspberryPi sat around for way too long with no real purpose. After browsing the internet though, I found an interesting &lt;a href=&#34;https://blog.sayan.ee/bbb&#34;&gt;post from Sayan who set up a BeagleBone board with Go&lt;/a&gt;. After React, Go is one of the new technologies I really like. After reading the article, I ordered the BeagleBone Black Wireless and waited impatiently for it to arrive.&lt;/p&gt;
+
+&lt;p&gt;Finally there, I did around 4 hours of trial and error to finally figure out how this little board works and what I have to do. Mainly, I wanted:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Install Debian on it&lt;/li&gt;
+&lt;li&gt;Booting it without the need of a SD Card&lt;/li&gt;
+&lt;li&gt;Run a Go server or something useful on it&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;At the Hackathon back then, I created a temperature and noise dashboard (&lt;a href=&#34;https://github.com/gruberb/IoTHack16&#34;&gt;code is on GitHub&lt;/a&gt;). Maybe the BeagleBone could do the same for me at home?&lt;/p&gt;
+
+&lt;p&gt;During this simple steps, I bricked the device twice, found some old post in some forum how to rebuild it and now I have working BeagleBone Black Wireless. In addition, I installed my own Go server on it to access it without a USB connection.&lt;/p&gt;
+
+&lt;h2 id=&#34;sane-howto-without-the-errors&#34;&gt;Sane HowTo (without the errors)&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Connect the BeagleBone with your Mac, wait until it&amp;rsquo;s booted, and then open the newly mounted Volume. In it, you find two drivers for the Mac you need to install before you can continue.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Afterwards, there is a &amp;ldquo;Flasher&amp;rdquo; version of Debian for the BBB. It will install the OS on the emmc of your board so you don&amp;rsquo;t need the SD Card every time you boot. I had problems finding a proper &amp;ldquo;Flash-Debian-EMMC-Version&amp;rdquo;. I tried a bunch of different ones, but nothing seemed to work. So I recommend this image here:&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;code&gt;wget https://rcn-ee.com/rootfs/2017-03-09/flasher/BBB-eMMC-flasher-debian-8.7-console-armhf-2017-03-09-2gb.img.xz&lt;/code&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Download it, and then unarchive it with Unarchiver for Mac or 7zip.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;You can now use your Terminal to create a working SD Card with this image, or &lt;a href=&#34;https://etcher.io&#34;&gt;just use this tool&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;code&gt;sudo dd if=BBB-eMMC-flasher-debian-7.5-2014-05-14-2gb.img of=/dev/disk2s1&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;To find out the name of the SD Card, insert it and execute:&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;df -h&lt;/code&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Power off your BeagleBone Black, unplugg the power/usb cord, and insert the SD Card.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Hold down the S2 button, and while holding it down, plug the power/usb cable in.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;The LEDs need to light up at least once, afterwards you can release the S2 button again.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;CRITICAL: This step 6 didn&amp;rsquo;t work for me in a long time. What I did was to find the right image, and during this process plug the BeagleBone onto a power outlet and NOT via the USB cable in the Mac.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;The LEDS are doing now some crazy things, lighting up in order 1-2-3-4-3-2-1-2&amp;hellip;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;The system is shutting itself down.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Plug the BeagleBone back to your Mac, wait until it&amp;rsquo;s booted, and then look at the right IP address in the network settings of your Mac.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Open the Terminal and execute this command (with the right IP address)
+&lt;code&gt;ssh debian@192.168.6.2&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;The password is &lt;code&gt;tmppwd&lt;/code&gt; and can be changed.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Voilà, you have a working BeagleBone Black Wireless!&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Downsizing and its side effects</title>
