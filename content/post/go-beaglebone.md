@@ -50,7 +50,7 @@ To find out the name of the SD Card, insert it and execute:
 
 - The LEDs need to light up at least once, afterwards you can release the S2 button again.
 
-CRITICAL: This step 6 didn't work for me in a long time. What I did was to find the right image, and during this process plug the BeagleBone onto a power outlet and NOT via the USB cable in the Mac. 
+CRITICAL: This step didn't work for me in a long time. What I did was to find the right image, and during this process plug the BeagleBone onto a power outlet and NOT via the USB cable in the Mac. 
 
 - The LEDS are doing now some crazy things, lighting up in order 1-2-3-4-3-2-1-2... 
 
@@ -58,10 +58,10 @@ CRITICAL: This step 6 didn't work for me in a long time. What I did was to find 
 
 - Plug the BeagleBone back to your Mac, wait until it's booted, and then look at the right IP address in the network settings of your Mac.
 
-10. Open the Terminal and execute this command (with the right IP address)
+- Open the Terminal and execute this command (with the right IP address)
 ```ssh debian@192.168.6.2```
  
-11. The password is ```tmppwd``` and can be changed.
+- The password is ```tmppwd``` and can be changed.
  
 Voilà, you have a working BeagleBone Black Wireless! 
    

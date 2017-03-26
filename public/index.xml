@@ -71,7 +71,7 @@
 &lt;li&gt;The LEDs need to light up at least once, afterwards you can release the S2 button again.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;CRITICAL: This step 6 didn&amp;rsquo;t work for me in a long time. What I did was to find the right image, and during this process plug the BeagleBone onto a power outlet and NOT via the USB cable in the Mac.&lt;/p&gt;
+&lt;p&gt;CRITICAL: This step didn&amp;rsquo;t work for me in a long time. What I did was to find the right image, and during this process plug the BeagleBone onto a power outlet and NOT via the USB cable in the Mac.&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;The LEDS are doing now some crazy things, lighting up in order 1-2-3-4-3-2-1-2&amp;hellip;&lt;/p&gt;&lt;/li&gt;
@@ -79,14 +79,12 @@
 &lt;li&gt;&lt;p&gt;The system is shutting itself down.&lt;/p&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;Plug the BeagleBone back to your Mac, wait until it&amp;rsquo;s booted, and then look at the right IP address in the network settings of your Mac.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
 
-&lt;ol&gt;
 &lt;li&gt;&lt;p&gt;Open the Terminal and execute this command (with the right IP address)
 &lt;code&gt;ssh debian@192.168.6.2&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;The password is &lt;code&gt;tmppwd&lt;/code&gt; and can be changed.&lt;/p&gt;&lt;/li&gt;
-&lt;/ol&gt;
+&lt;/ul&gt;
 
 &lt;p&gt;Voilà, you have a working BeagleBone Black Wireless!&lt;/p&gt;
 </description>
