@@ -6,6 +6,8 @@ Categories = []
 date = "2017-03-26T10:20:55+01:00"
 +++
 
+![BeagleBone](https://preview.ibb.co/iN3fmF/header.jpg)
+
 I have to admit, the power of IoT did not yet reach my little nerd life here in Berlin. Therefore, I took an effort this year and went to an IoT Hackathon. It was a fun weekend, I think there were just 5 developers and the rest of the crowd came from a social and educational background. Which made it even more fun and interesting.
 
 Anyway, since this weekend I ordered a RaspberryPi and tried to do something useful with it. This idea, and my other habit of simplyfing my life clashed a little bit. So the RaspberryPi sat around for way too long with no real purpose. After browsing the internet though, I found an interesting <a href="https://blog.sayan.ee/bbb">post from Sayan who set up a BeagleBone board with Go</a>. After React, Go is one of the new technologies I really like. After reading the article, I ordered the BeagleBone Black Wireless and waited impatiently for it to arrive.
@@ -34,6 +36,8 @@ During this simple steps, I bricked the device twice, found some old post in som
 
 ```sudo dd if=BBB-eMMC-flasher-debian-7.5-2014-05-14-2gb.img of=/dev/disk2s1```
 
+![WGET image](https://preview.ibb.co/b5mY6F/status.jpg)
+
 To find out the name of the SD Card, insert it and execute:
 
 ```df -h```
@@ -41,6 +45,8 @@ To find out the name of the SD Card, insert it and execute:
 - Power off your BeagleBone Black, unplugg the power/usb cord, and insert the SD Card. 
 
 - Hold down the S2 button, and while holding it down, plug the power/usb cable in.
+
+![S2 Button BeagleBone](https://preview.ibb.co/bt7Ufa/s2.jpg)
 
 - The LEDs need to light up at least once, afterwards you can release the S2 button again.
 

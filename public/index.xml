@@ -17,6 +17,8 @@
       <guid>http://gruberbastian.com/post/go-beaglebone/</guid>
       <description>
 
+&lt;p&gt;&lt;img src=&#34;https://preview.ibb.co/iN3fmF/header.jpg&#34; alt=&#34;BeagleBone&#34; /&gt;&lt;/p&gt;
+
 &lt;p&gt;I have to admit, the power of IoT did not yet reach my little nerd life here in Berlin. Therefore, I took an effort this year and went to an IoT Hackathon. It was a fun weekend, I think there were just 5 developers and the rest of the crowd came from a social and educational background. Which made it even more fun and interesting.&lt;/p&gt;
 
 &lt;p&gt;Anyway, since this weekend I ordered a RaspberryPi and tried to do something useful with it. This idea, and my other habit of simplyfing my life clashed a little bit. So the RaspberryPi sat around for way too long with no real purpose. After browsing the internet though, I found an interesting &lt;a href=&#34;https://blog.sayan.ee/bbb&#34;&gt;post from Sayan who set up a BeagleBone board with Go&lt;/a&gt;. After React, Go is one of the new technologies I really like. After reading the article, I ordered the BeagleBone Black Wireless and waited impatiently for it to arrive.&lt;/p&gt;
@@ -51,6 +53,8 @@
 
 &lt;p&gt;&lt;code&gt;sudo dd if=BBB-eMMC-flasher-debian-7.5-2014-05-14-2gb.img of=/dev/disk2s1&lt;/code&gt;&lt;/p&gt;
 
+&lt;p&gt;&lt;img src=&#34;https://preview.ibb.co/b5mY6F/status.jpg&#34; alt=&#34;WGET image&#34; /&gt;&lt;/p&gt;
+
 &lt;p&gt;To find out the name of the SD Card, insert it and execute:&lt;/p&gt;
 
 &lt;p&gt;&lt;code&gt;df -h&lt;/code&gt;&lt;/p&gt;
@@ -59,8 +63,12 @@
 &lt;li&gt;&lt;p&gt;Power off your BeagleBone Black, unplugg the power/usb cord, and insert the SD Card.&lt;/p&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;Hold down the S2 button, and while holding it down, plug the power/usb cable in.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;li&gt;&lt;p&gt;The LEDs need to light up at least once, afterwards you can release the S2 button again.&lt;/p&gt;&lt;/li&gt;
+&lt;p&gt;&lt;img src=&#34;https://preview.ibb.co/bt7Ufa/s2.jpg&#34; alt=&#34;S2 Button BeagleBone&#34; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;The LEDs need to light up at least once, afterwards you can release the S2 button again.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;CRITICAL: This step 6 didn&amp;rsquo;t work for me in a long time. What I did was to find the right image, and during this process plug the BeagleBone onto a power outlet and NOT via the USB cable in the Mac.&lt;/p&gt;
