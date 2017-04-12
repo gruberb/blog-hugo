@@ -15,7 +15,9 @@
       <pubDate>Wed, 12 Apr 2017 10:40:41 +0100</pubDate>
       
       <guid>http://gruberbastian.com/post/switch/</guid>
-      <description>&lt;p&gt;Since the beginning of JavaScript on the desktop, aka Electron, I was happily switching to GitHubs Atom text editor. The benefits are obvious:&lt;/p&gt;
+      <description>&lt;p&gt;&lt;img src=&#34;https://preview.ibb.co/jMyYBQ/sublime.png&#34; alt=&#34;sublime&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;Since the beginning of JavaScript on the desktop, aka &lt;a href=&#34;https://electron.atom.io/&#34;&gt;Electron&lt;/a&gt;, I was happily switching to &lt;a href=&#34;https://atom.io/&#34;&gt;GitHubs Atom text editor&lt;/a&gt;. The benefits are obvious:&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Open Source&lt;/li&gt;
@@ -26,7 +28,7 @@
 
 &lt;p&gt;Ever since I switched, I loved Atom. Many plugins are enhancing your life as a developer. A few glitches here and there didn&amp;rsquo;t let me question my decision a few years ago.&lt;/p&gt;
 
-&lt;p&gt;Since today. I read on Hacker News that Sublime Text released a new (sub) version of their third version. Sublime Text was (or still is?) the standard text editor when it comes to coding. Or lets say the standard for everybody who is using macOS and a MacBook. So I gave the newest version a shot, and found out:&lt;/p&gt;
+&lt;p&gt;Since today. I read on Hacker News that &lt;a href=&#34;https://www.sublimetext.com/3&#34;&gt;Sublime Text&lt;/a&gt; released a new (sub) version of their third version. Sublime Text was (or still is?) the standard text editor when it comes to coding. Or lets say the standard for everybody who is using macOS and a MacBook. So I gave the newest version a shot, and found out:&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Who needs Open Source in your text editor if it runs so smoothly?&lt;/li&gt;
@@ -69,7 +71,7 @@
 
 &lt;p&gt;&lt;code&gt;&amp;quot;caret_style&amp;quot;: &amp;quot;phase&amp;quot;&lt;/code&gt;&lt;/p&gt;
 
-&lt;p&gt;Overall, this is the way to go. I feel super happy and hope that besides the cool new shiny Sublime Text logo is just the beginning of a new developer journey.&lt;/p&gt;
+&lt;p&gt;Overall, this is the way to go. I feel super happy and hope that besides the cool new shiny Sublime Text logo is just the beginning of a new developer journey. Now, I am enjoying the same fancy look from Atom on top of a blazing fast and stable Sublime Text 3.&lt;/p&gt;
 </description>
     </item>
     
