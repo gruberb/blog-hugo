@@ -20,6 +20,16 @@ title = "Pet Projects"
 
 
 <h2>Grown up projects</h2>
+
+### Claudia Castrone Portfolio (<a href="https://clausi.herokuapp.com"><i class="fa fa-globe" aria-hidden="true"></i></a>)
+<img src="http://preview.ibb.co/jJ8pLk/cc.jpg" title="cc" />
+
+- Good old jQuery
+- Foundation 6
+- JavaScript
+- HTML5/CSS3
+- Heroku
+
 ### LivingRoomArt (<a href="https://github.com/gruberb/LivingRoomArt"><i class="fa fa-github" aria-hidden="true"></i></a>)
 <img src="https://image.ibb.co/cWrSDv/la.png" title="LivingroomArt"/>
 
