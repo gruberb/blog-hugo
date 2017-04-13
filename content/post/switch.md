@@ -1,5 +1,5 @@
 +++
-title = "Back to the basics and Sublime Text"
+title = "Switching back to Sublime Text"
 Description = ""
 Tags = ["tools"]
 Categories = []
