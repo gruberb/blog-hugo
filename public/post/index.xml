@@ -302,6 +302,37 @@
     </item>
     
     <item>
+      <title>Git proficiency with rebase and the right pull</title>
+      <link>http://gruberbastian.com/post/gitprof/</link>
+      <pubDate>Mon, 12 Dec 2016 20:37:04 +0200</pubDate>
+      
+      <guid>http://gruberbastian.com/post/gitprof/</guid>
+      <description>
+
+&lt;p&gt;I am a developer now for more than 10 years. Except a few years with SVN, I was solely working with Git. The best quote I got from one of my CTOs in the early days, was:&lt;/p&gt;
+
+&lt;p&gt;&amp;ldquo;Git is like the whole world, but we need just the size of a lake of it.&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;You mainly use:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;git clone&lt;/li&gt;
+&lt;li&gt;git pull&lt;/li&gt;
+&lt;li&gt;git push&lt;/li&gt;
+&lt;li&gt;git add&lt;/li&gt;
+&lt;li&gt;git commit&lt;/li&gt;
+&lt;li&gt;git checkout and git checkout -b&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;That&amp;rsquo;s mostly it, right? Creating new branches, pushing them to Bitbucket or GitHub, and then merge them via the GUI of one of the two websites.&lt;/p&gt;
+
+&lt;p&gt;My latest project let me work with around 7 developers, and we all work on the same project, and on multiple GitHub issues at once. There, a simple &amp;ldquo;git merge develop MYBRANCH&amp;rdquo; didn&amp;rsquo;t cut it anymore. More was needed. And there I found it, the holy command of the year 2017. At least of my version of 2017.&lt;/p&gt;
+
+&lt;h3 id=&#34;git-rebase-i-head-3-and-other-funny-things&#34;&gt;&amp;ldquo;git rebase -i HEAD~3&amp;rdquo; and other funny things.&lt;/h3&gt;
+</description>
+    </item>
+    
+    <item>
       <title>The beauty of DevOps</title>
       <link>http://gruberbastian.com/post/devops/</link>
       <pubDate>Mon, 12 Dec 2016 20:37:04 +0200</pubDate>
