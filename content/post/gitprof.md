@@ -62,6 +62,23 @@ and then, checkout our feature branch again:
 
 - `git checkout 1234-switch-userform`
 
-And now comes the magic. We can group different commits together with the use of `git rebase -i HEAD~4`. 
+And now comes the magic. We can group different commits together with the use of `git rebase -i HEAD~4`. What this does, is:
 
+- Opens your standard terminal text editor (probably vi or vim)
+- Shows you the last 4 commits from the latest HEAD (HEAD~4)
+- Offers you options to pick, squash, drop, edit and fix commits
+
+<a href="https://git-scm.com/docs/git-rebase">Here is a nice overview of all the options</a> you are given there.
+
+Now you can pick and group commits together with:
+
+- put a `pick` in front of your first commit you want to combine
+- and then remove the `pick` in front of the other commits and put a `s` for `squash` in front of them (in case you want to combine/squash them together into one commit)
+
+
+### What does it bring you?
+
+Well, it's a nice idea to group commits together which belong together, so the reviewer of your code has an easier job going through each step and make a better sense of it. Also, your git history stays super clean and readable.
+
+Think about a super way of documenting your process and code. Once you figured out the mechanics, it's a huge boost in professionality and quality.
 
