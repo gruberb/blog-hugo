@@ -6,34 +6,34 @@ Categories = []
 date = "2017-02-27T09:51:55+01:00"
 +++
 
-For quite a long time now, I am reading those two books:
+For quite a long time now, I have been reading these two books:
 
-- <a href="http://www.goodreads.com/book/show/9519944-early-retirement-extreme?from_search=true">Early retirement extreme</a>
-- <a href="http://www.goodreads.com/book/show/78428.Your_Money_or_Your_Life">Your money or your life</a>
+- <a href="http://www.goodreads.com/book/show/9519944-early-retirement-extreme?from_search=true">Early Retirement Extreme</a>
+- <a href="http://www.goodreads.com/book/show/78428.Your_Money_or_Your_Life">Your Money or Your Life</a>
 
-Both titles suggest that all those book care about is earning lots of money and then taking a rest. However, after reading the first few pages it becomes clear that the goal of those books are to provide you with a new mindset of your life.
+These titles suggest that it's all about earning lots of money and then coasting your way through life. After reading the first few pages however, it becomes clear that the goal of these books is to provide you woth a new mindset.
 
-You can say all those hipsters around big cities trying to do the same: Eat more local, cook your own food, be aware of what you destroy. In addition, Yoga and eastern philosophies are becoming trendy as well. Be one with your environment, be aware of your needs and yourself.
+You can see all the hipsters in big cities are trying to do the same: eat locally, cook your own food, be aware of the consequences of your actions. In addition, Yoga and eastern philosophies are becoming trendy as well: be one with your environment, be aware of your needs and yourself.
 
-But we in the western world live a rather consumerist life style, and this is where the two titles from the beginning want to make a change.
+But in the western world we live a rather consumerist lifestyle, and this is where these two books, from the very beginning, want to make a change.
 
-Inspired by all of those ideas, and a long history of my own with trying things out and putting me to the edge, I tried to combine all of those ideas to make some life changes as well:
+Inspired by these ideas, and my long history of trying things out and pushing myself, I've tried to combine some of these ideas to some life changes:
 
-- Going from an iPhone to a dump phone (Nokia 150)
+- Going from an iPhone to a dumb phone (Nokia 150)
 - Biking to work (15km return)
-- Prepare my own meal and eating at home
-- Unsubscribe from every newsletter,
-- Downsize my online accounts from ~120 to 30.
+- Preparing my own meals and eating at home
+- Unsubscribing from newsletters
+- Downsizing my online accounts from ~120 to 30.
 - Going off social networks
-- Reading my emails just twice a day
+- Reading my emails only twice a day
 
-I realized that once the decision is made, I see some pretty cool side effects.
+I realized that once I have made these decisions is made, I see some pretty cool side effects.
 
-### Dump phone
+### Downsizing my phone
 ----
 - No more buying apps (saving money)
 - Wasting less time on it (higher concentration span)
-- Just take it out when at home (taking the environment all in)
+- Only using it while at home (taking the environment in)
 - Saving time and frustration by charging it just once a week
 - Saving money on my phone plan (6,50 Euro instead of 45 a month)
 
@@ -45,24 +45,24 @@ Summary: More money, more attention, less frustration, less occupied
 - Not using Spotify to listen to music on the way to work (saving money and 1 online account)
 - Working out (saving money and time not going to the gym)
 - Working out (be more healthy and fit)
-- Know roads, street names and the city much better
-- Less dependent on traffic and public transport
+- Knowing roads, street names, and the city much better
+- Being less dependent on traffic and public transport
 - Saving money every month by not buying tickets for public transport
 
 Summary: More money, fitter and healthier
 
 
-### Prepare my own meal
+### Preparing my own meals
 ----
-- Know how to cook, self sufficient
+- Knowing how to cook, being self sufficient
 - Higher quality of food, and therefore healthier
 - Mediative cooking to calm down after working
-- Change to cook with my partner to share stories and moments together
+- Cooking with my partner to share stories and moments together
 
 Summary: Saving money, healthier, more time with my partner
 
 
-### Unsubscribe from Newsletters
+### Unsubscribing from Newsletters
 ----
 - I don't see things I "need" to buy
 - Less clutter in my life
@@ -77,7 +77,7 @@ Summary: Not wasting money, more attention for other things
 - Less worry about sites get hacked and passwords stolen
 - Less subscriptions and therefore saving more money
 
-Summary: Less stress about online security, more freedom to switch operating systems because less apps needed to manage passwords
+Summary: Less stress about online security, saving money
 
 ### Going off Social Networks
 ----
@@ -86,28 +86,28 @@ Summary: Less stress about online security, more freedom to switch operating sys
 - Less clutter every day, less news
 - Less attention stolen from my day
 - My brain doesn't need to process useless information every day
-- My brain needs to filter less bullshit and has therefore more energy to do things I care about
+- My brain needs to filter less bullshit and therefore I have more energy to do the things I care about
 
-Summary: Just the best decision so far, both for my social as well as my professional life
+Summary: the best decision so far, both for my social as well as professional life
 
 ### Reading emails just twice a day
 ---
 - One addiction less. I feel calmer the whole day
 - I am the master of my own time
-- I take my time to answer and write emails, and therefore writing less overall
+- I take my time to answer and write emails, and therefore write less overall
 
 Summary: More freedom in my day-to-day life
 
 
-But, side effects didn't just occur for each category, the promote each other:
+But, side effects didn't just occur for each category, they promote each other:
 
-- Less email reading, less online accounts means less apps, means no need for a smartphone, which means I am free to travel around and can drop phones here and there without loosing private information. I can switch phones much faster if I need to because they cost less money and store almost no private information (good for traveling abroad).
+- Less email reading, means less online accounts, means fewer apps, means no need for a smartphone, which means I am free to travel around and can drop phones here and there without loosing private information. I can switch phones much faster if I need to because they cost less money and store almost no private information (good for traveling abroad).
 
 - I bike every day, therefore I have time to have a breakfast at home, which saves money. I can just stop on my way to work to pick up cheap food from street markets. I can easily meet friends on the way home.
 
 
 ## Summary
 
-This life style doesn't mean it needs to be like this forever. From a very minimal lifestyle, you can move faster, break less things, be more cost effective, be more healthy. Every day you feel less addictive and be the master of your own world again. Again, feel free to choose an iPhone again because you like Google Maps on the go and WhatsApp messaging. But, you will feel that every thing you add feels heavy and for the first time you feel all the clutter.
+This lifestyle doesn't mean it needs to be like this forever. From a very minimal lifestyle, you can move faster, break fewer things, be more cost effective, be more healthy. Every day you feel less addictive and able to be the master of your own world again. Feel free to choose an iPhone again because you like Google Maps on the go and WhatsApp messaging. But, you might feel that every thing you add feels heavy and for the first time you feel all the clutter.
 
-I describe it often as quitting smoking. It is the same feeling. First you feel a relieve when you are a smoker, standing outside and having a cigarette after a heavy meal. But once you are off cigarettes, you feel the burden to smoke is gone. The same is true for every addiction and clutter in your life. First it feels like they give us safety and stability, but those can also come from within. Which means: More money, more freedom and a happier life overall.
+It's the same feeling as quitting smoking. Beofre you quit, you feel a relief when you are a smoker: standing outside and having a cigarette after a heavy meal. But once you are off cigarettes, you feel the burden to smoke is gone. The same is true for all additions and clutter in your life. In the beginning, it feels like these things give us safety and stability, but those can also come from within. Which means more money, more freedom and a happier life overall.
