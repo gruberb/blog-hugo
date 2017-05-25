@@ -20,36 +20,54 @@ Ever since I switched, I loved Atom. Many plugins are enhancing your life as a d
 Since today. I read on Hacker News that <a href="https://www.sublimetext.com/3">Sublime Text</a> released a new (sub) version of their third version. Sublime Text was (or still is?) the standard text editor when it comes to coding. Or lets say the standard for everybody who is using macOS and a MacBook. So I gave the newest version a shot, and found out:
 
 - Who needs Open Source in your text editor if it runs so smoothly?
-- It's written in C++ and Python, blazing fast 
+- It's written in C++ and Python, blazing fast
 - Who cares about the brand?
 - Slow development cycles, but very stable product
 
-I changed a few things (themes, line heights etc.) and I am happier than ever. Here are my `user preferences`:
+I changed a few things (themes, line heights etc.) and I am happier than ever. Here are my `user preferences` *(Updated May 25th, 2017)*:
 
 ```
 {
-	"bold_folder_labels": true,
-	"caret_style": "phase",
-	"color_scheme": "Packages/Theme - One Dark/One Dark.tmTheme",
-	"fade_fold_buttons": false,
-	"font_size": 14,
-	"highlight_line": true,
-	"find_selected_text": true,
-	"ignored_packages":
-	[
-		"Vintage"
-	],
-	"line_padding_bottom": 2,
-	"line_padding_top": 2,
-	"tab_size": 2,
-	"theme": "One Dark.sublime-theme",
+  "bold_folder_labels": true,
+  "caret_style": "phase",
+  "color_scheme": "Packages/Dracula Color Scheme/Dracula.tmTheme",
+  "ensure_newline_at_eof_on_save": true,
+  "fade_fold_buttons": false,
+  "find_selected_text": true,
+  "folder_exclude_patterns":
+  [
+    ".svn",
+    ".git",
+    ".hg",
+    "CVS",
+    "build",
+    "node_modules",
+    "bin",
+    "coverage"
+  ],
+  "font_size": 14,
+  "highlight_line": true,
+  "ignored_packages":
+  [
+    "Vintage"
+  ],
+  "line_padding_bottom": 2,
+  "line_padding_top": 2,
+  "node_modules_path": "/usr/local/lib/node_modules",
+  "node_path": "/usr/local/bin",
+  "translate_tabs_to_spaces": true,
+  "detect_indentation": false,
+  "tab_size": 2,
+  "theme": "One Dark.sublime-theme",
+  "trim_trailing_white_space_on_save": true
 }
+
 ```
 
 The most important steps were:
 
 - <a href="https://packagecontrol.io/installation">Install the Package Manager</a>
-- <a href="https://packagecontrol.io/packages/Theme%20-%20One%20Dark">Switch to the One Dark theme from Atom</a> 
+- <a href="https://packagecontrol.io/packages/Theme%20-%20One%20Dark">Switch to the One Dark theme from Atom</a>
 - Increase the font size to 14px
 - Add a bit of line padding to have more space for each line
 

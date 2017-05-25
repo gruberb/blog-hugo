@@ -134,25 +134,43 @@
 &lt;li&gt;Slow development cycles, but very stable product&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;I changed a few things (themes, line heights etc.) and I am happier than ever. Here are my &lt;code&gt;user preferences&lt;/code&gt;:&lt;/p&gt;
+&lt;p&gt;I changed a few things (themes, line heights etc.) and I am happier than ever. Here are my &lt;code&gt;user preferences&lt;/code&gt; &lt;em&gt;(Updated May 25th, 2017)&lt;/em&gt;:&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;{
-	&amp;quot;bold_folder_labels&amp;quot;: true,
-	&amp;quot;caret_style&amp;quot;: &amp;quot;phase&amp;quot;,
-	&amp;quot;color_scheme&amp;quot;: &amp;quot;Packages/Theme - One Dark/One Dark.tmTheme&amp;quot;,
-	&amp;quot;fade_fold_buttons&amp;quot;: false,
-	&amp;quot;font_size&amp;quot;: 14,
-	&amp;quot;highlight_line&amp;quot;: true,
-	&amp;quot;find_selected_text&amp;quot;: true,
-	&amp;quot;ignored_packages&amp;quot;:
-	[
-		&amp;quot;Vintage&amp;quot;
-	],
-	&amp;quot;line_padding_bottom&amp;quot;: 2,
-	&amp;quot;line_padding_top&amp;quot;: 2,
-	&amp;quot;tab_size&amp;quot;: 2,
-	&amp;quot;theme&amp;quot;: &amp;quot;One Dark.sublime-theme&amp;quot;,
+  &amp;quot;bold_folder_labels&amp;quot;: true,
+  &amp;quot;caret_style&amp;quot;: &amp;quot;phase&amp;quot;,
+  &amp;quot;color_scheme&amp;quot;: &amp;quot;Packages/Dracula Color Scheme/Dracula.tmTheme&amp;quot;,
+  &amp;quot;ensure_newline_at_eof_on_save&amp;quot;: true,
+  &amp;quot;fade_fold_buttons&amp;quot;: false,
+  &amp;quot;find_selected_text&amp;quot;: true,
+  &amp;quot;folder_exclude_patterns&amp;quot;:
+  [
+    &amp;quot;.svn&amp;quot;,
+    &amp;quot;.git&amp;quot;,
+    &amp;quot;.hg&amp;quot;,
+    &amp;quot;CVS&amp;quot;,
+    &amp;quot;build&amp;quot;,
+    &amp;quot;node_modules&amp;quot;,
+    &amp;quot;bin&amp;quot;,
+    &amp;quot;coverage&amp;quot;
+  ],
+  &amp;quot;font_size&amp;quot;: 14,
+  &amp;quot;highlight_line&amp;quot;: true,
+  &amp;quot;ignored_packages&amp;quot;:
+  [
+    &amp;quot;Vintage&amp;quot;
+  ],
+  &amp;quot;line_padding_bottom&amp;quot;: 2,
+  &amp;quot;line_padding_top&amp;quot;: 2,
+  &amp;quot;node_modules_path&amp;quot;: &amp;quot;/usr/local/lib/node_modules&amp;quot;,
+  &amp;quot;node_path&amp;quot;: &amp;quot;/usr/local/bin&amp;quot;,
+  &amp;quot;translate_tabs_to_spaces&amp;quot;: true,
+  &amp;quot;detect_indentation&amp;quot;: false,
+  &amp;quot;tab_size&amp;quot;: 2,
+  &amp;quot;theme&amp;quot;: &amp;quot;One Dark.sublime-theme&amp;quot;,
+  &amp;quot;trim_trailing_white_space_on_save&amp;quot;: true
 }
+
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;The most important steps were:&lt;/p&gt;
