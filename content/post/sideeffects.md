@@ -11,7 +11,7 @@ For quite a long time now, I have been reading these two books:
 - <a href="http://www.goodreads.com/book/show/9519944-early-retirement-extreme?from_search=true">Early Retirement Extreme</a>
 - <a href="http://www.goodreads.com/book/show/78428.Your_Money_or_Your_Life">Your Money or Your Life</a>
 
-These titles suggest that it's all about earning lots of money and then coasting your way through life. After reading the first few pages however, it becomes clear that the goal of these books is to provide you woth a new mindset.
+These titles suggest that it's all about earning lots of money and then coasting your way through life. After reading the first few pages however, it becomes clear that the goal of these books is to provide you with a new mindset.
 
 You can see all the hipsters in big cities are trying to do the same: eat locally, cook your own food, be aware of the consequences of your actions. In addition, Yoga and eastern philosophies are becoming trendy as well: be one with your environment, be aware of your needs and yourself.
 
@@ -110,4 +110,4 @@ But, side effects didn't just occur for each category, they promote each other:
 
 This lifestyle doesn't mean it needs to be like this forever. From a very minimal lifestyle, you can move faster, break fewer things, be more cost effective, be more healthy. Every day you feel less addictive and able to be the master of your own world again. Feel free to choose an iPhone again because you like Google Maps on the go and WhatsApp messaging. But, you might feel that every thing you add feels heavy and for the first time you feel all the clutter.
 
-It's the same feeling as quitting smoking. Beofre you quit, you feel a relief when you are a smoker: standing outside and having a cigarette after a heavy meal. But once you are off cigarettes, you feel the burden to smoke is gone. The same is true for all additions and clutter in your life. In the beginning, it feels like these things give us safety and stability, but those can also come from within. Which means more money, more freedom and a happier life overall.
+It's the same feeling as quitting smoking. Beofre you quit, you feel a relief when you are a smoker: standing outside and having a cigarette after a heavy meal. But once you are off cigarettes, you feel the burden to smoke is gone. The same is true for all addictions and clutter in your life. In the beginning, it feels like these things give us safety and stability, but those can also come from within. Which means more money, more freedom and a happier life overall.
