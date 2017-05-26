@@ -27,7 +27,7 @@ Inspired by these ideas, and my long history of trying things out and pushing my
 - Going off social networks
 - Reading my emails only twice a day
 
-I realized that once I have made these decisions is made, I see some pretty cool side effects.
+I realized that once I have made these decisions, I see some pretty cool side effects.
 
 ### Downsizing my phone
 ----
