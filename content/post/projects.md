@@ -21,7 +21,7 @@ title = "Pet Projects"
 
 <h2>Grown up projects</h2>
 
-### Claudia Castrone Portfolio (<a href="https://clausi.herokuapp.com"><i class="fa fa-globe" aria-hidden="true"></i></a>)
+### Claudia Castrone Portfolio (<a href="https://github.com/gruberb/ccastrone-portfolio"><i class="fa fa-github" aria-hidden="true"></i></a>|<a href="https://clausi.herokuapp.com"><i class="fa fa-globe" aria-hidden="true"></i></a>)
 <img src="http://preview.ibb.co/jJ8pLk/cc.jpg" title="cc" />
 
 - Good old jQuery
