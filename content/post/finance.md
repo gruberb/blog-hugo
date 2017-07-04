@@ -8,7 +8,7 @@ draft = true
 +++
 
 I am now a few years into this whole "working and earing" lifecycle. In the beginning, especially as a student, I spend most of my freelance and other work money on the latest Apple Hardware, books and clubs. Now, being older, wiser and more careful, I decided to take finance and money a bit more serious.
-
+test
 In this post, I offer you financial wisdom. I think you don't need a finance guru to survive. At least not when you are not rich and just want to build up a solid financial foundation. You basically need to invest 150 Euro in tools and books, and afterwards a lot of discipline to follow through.
 
 #### Content
@@ -70,5 +70,5 @@ You can buy shares from lets say Apple, for around 140 Euro per share at the mom
 
 You won't get richt, but with a combination of ETFs, Stocks and the use of RoboAdviser, you can most probably gain a solid 10% return every year from your hard saved money.
 
-Timeframe: It took me around 4 months of daily reading and investigating to feel solid enough to invest small amounts on my own and start to build a solid knowledge of the stock market.
+Timeframe: It took me around 4 months of daily reading and investigating to feel solid enough to invest small amounts on my own and start to build up small amounts of knowledge of the stock market.
 
