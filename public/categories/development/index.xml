@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Bastian Gruber</title>
-    <link>http://gruberbastian.com/categories/development/index.xml</link>
-    <description>Recent content on Bastian Gruber</description>
+    <title>Development on Bastian Gruber</title>
+    <link>http://gruberbastian.com/categories/development/</link>
+    <description>Recent content in Development on Bastian Gruber</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Sat, 08 Oct 2016 14:37:04 +0200</lastBuildDate>
     <atom:link href="http://gruberbastian.com/categories/development/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
@@ -29,7 +30,7 @@
 
 &lt;h2&gt;Grown up projects&lt;/h2&gt;
 
-&lt;h3 id=&#34;claudia-castrone-portfolio-a-href-https-github-com-gruberb-ccastrone-portfolio-i-class-fa-fa-github-aria-hidden-true-i-a-a-href-https-clausi-herokuapp-com-i-class-fa-fa-globe-aria-hidden-true-i-a&#34;&gt;Claudia Castrone Portfolio (&lt;a href=&#34;https://github.com/gruberb/ccastrone-portfolio&#34;&gt;&lt;i class=&#34;fa fa-github&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;&lt;/a&gt;|&lt;a href=&#34;https://clausi.herokuapp.com&#34;&gt;&lt;i class=&#34;fa fa-globe&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;&lt;/a&gt;)&lt;/h3&gt;
+&lt;h3 id=&#34;claudia-castrone-portfolio-a-href-https-github-com-gruberb-ccastrone-portfolio-i-class-fa-fa-github-aria-hidden-true-i-a-a-href-https-clausi-herokuapp-com-i-class-fa-fa-globe-aria-hidden-true-i-a:3c42bb4157bf51d85ae7ffc4e1685909&#34;&gt;Claudia Castrone Portfolio (&lt;a href=&#34;https://github.com/gruberb/ccastrone-portfolio&#34;&gt;&lt;i class=&#34;fa fa-github&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;&lt;/a&gt;|&lt;a href=&#34;https://clausi.herokuapp.com&#34;&gt;&lt;i class=&#34;fa fa-globe&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;&lt;/a&gt;)&lt;/h3&gt;
 
 &lt;p&gt;&lt;img src=&#34;http://preview.ibb.co/jJ8pLk/cc.jpg&#34; title=&#34;cc&#34; /&gt;&lt;/p&gt;
 
@@ -41,7 +42,7 @@
 &lt;li&gt;Heroku&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;livingroomart-a-href-https-github-com-gruberb-livingroomart-i-class-fa-fa-github-aria-hidden-true-i-a&#34;&gt;LivingRoomArt (&lt;a href=&#34;https://github.com/gruberb/LivingRoomArt&#34;&gt;&lt;i class=&#34;fa fa-github&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;&lt;/a&gt;)&lt;/h3&gt;
+&lt;h3 id=&#34;livingroomart-a-href-https-github-com-gruberb-livingroomart-i-class-fa-fa-github-aria-hidden-true-i-a:3c42bb4157bf51d85ae7ffc4e1685909&#34;&gt;LivingRoomArt (&lt;a href=&#34;https://github.com/gruberb/LivingRoomArt&#34;&gt;&lt;i class=&#34;fa fa-github&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;&lt;/a&gt;)&lt;/h3&gt;
 
 &lt;p&gt;&lt;img src=&#34;https://image.ibb.co/cWrSDv/la.png&#34; title=&#34;LivingroomArt&#34;/&gt;&lt;/p&gt;
 
@@ -52,7 +53,7 @@
 &lt;li&gt;FileUpload: Amazon S3&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;opendecision-a-href-https-github-com-gruberb-opendecision-i-class-fa-fa-github-aria-hidden-true-i-a&#34;&gt;OpenDecision (&lt;a href=&#34;https://github.com/gruberb/OpenDecision&#34;&gt;&lt;i class=&#34;fa fa-github&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;&lt;/a&gt;)&lt;/h3&gt;
+&lt;h3 id=&#34;opendecision-a-href-https-github-com-gruberb-opendecision-i-class-fa-fa-github-aria-hidden-true-i-a:3c42bb4157bf51d85ae7ffc4e1685909&#34;&gt;OpenDecision (&lt;a href=&#34;https://github.com/gruberb/OpenDecision&#34;&gt;&lt;i class=&#34;fa fa-github&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;&lt;/a&gt;)&lt;/h3&gt;
 
 &lt;p&gt;&lt;img src=&#34;https://image.ibb.co/gUyURF/od.png&#34; title=&#34;OpenDecision&#34;/&gt;&lt;/p&gt;
 
@@ -62,7 +63,7 @@
 &lt;li&gt;Deployment: Heroku&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;chartistdirective-a-href-https-github-com-gruberb-chartistangulardirective-i-class-fa-fa-github-aria-hidden-true-i-a&#34;&gt;ChartistDirective (&lt;a href=&#34;https://github.com/gruberb/chartistAngularDirective&#34;&gt;&lt;i class=&#34;fa fa-github&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;&lt;/a&gt;)&lt;/h3&gt;
+&lt;h3 id=&#34;chartistdirective-a-href-https-github-com-gruberb-chartistangulardirective-i-class-fa-fa-github-aria-hidden-true-i-a:3c42bb4157bf51d85ae7ffc4e1685909&#34;&gt;ChartistDirective (&lt;a href=&#34;https://github.com/gruberb/chartistAngularDirective&#34;&gt;&lt;i class=&#34;fa fa-github&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;&lt;/a&gt;)&lt;/h3&gt;
 
 &lt;p&gt;&lt;img src=&#34;https://image.ibb.co/diMzRF/ca.png&#34; title=&#34;ChartistDirective&#34;/&gt;&lt;/p&gt;
 
@@ -70,7 +71,7 @@
 &lt;li&gt;AngularJS&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;companylunch-a-href-https-github-com-gruberb-companylunch-i-class-fa-fa-github-aria-hidden-true-i-a&#34;&gt;CompanyLunch (&lt;a href=&#34;https://github.com/gruberb/CompanyLunch&#34;&gt;&lt;i class=&#34;fa fa-github&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;&lt;/a&gt;)&lt;/h3&gt;
+&lt;h3 id=&#34;companylunch-a-href-https-github-com-gruberb-companylunch-i-class-fa-fa-github-aria-hidden-true-i-a:3c42bb4157bf51d85ae7ffc4e1685909&#34;&gt;CompanyLunch (&lt;a href=&#34;https://github.com/gruberb/CompanyLunch&#34;&gt;&lt;i class=&#34;fa fa-github&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;&lt;/a&gt;)&lt;/h3&gt;
 
 &lt;p&gt;&lt;img src=&#34;https://image.ibb.co/d3hZtv/rr.png&#34; title=&#34;CompanyLunch&#34;/&gt;&lt;/p&gt;
 

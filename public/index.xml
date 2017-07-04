@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Bastian Gruber</title>
-    <link>http://gruberbastian.com/index.xml</link>
+    <link>http://gruberbastian.com/</link>
     <description>Recent content on Bastian Gruber</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -36,13 +36,13 @@
 
 &lt;p&gt;My latest project let me work with around 7 developers, and we all work on the same project, and on multiple GitHub issues at once. There, a simple &amp;ldquo;git merge develop MYBRANCH&amp;rdquo; didn&amp;rsquo;t cut it anymore. More was needed. And there I found it, the holy command of the year 2017. At least of my version of 2017.&lt;/p&gt;
 
-&lt;h3 id=&#34;git-rebase-i-head-3-and-other-funny-things&#34;&gt;&amp;ldquo;git rebase -i HEAD~3&amp;rdquo; and other funny things.&lt;/h3&gt;
+&lt;h3 id=&#34;git-rebase-i-head-3-and-other-funny-things:57fa6edd126b9dea34c141b29e2bdf16&#34;&gt;&amp;ldquo;git rebase -i HEAD~3&amp;rdquo; and other funny things.&lt;/h3&gt;
 
 &lt;p&gt;A colleague in the current project introduced me to a whole new world of telling &amp;ldquo;stories&amp;rdquo; with your git commits. Grouping them together so the reviewer gets a sense of what is going on and for which reason. Back then, in the old days, I would just commit around 10 times, push it all to GitHub and the reviewer went file for file and try to understand what&amp;rsquo;s going now.&lt;/p&gt;
 
 &lt;p&gt;Now though, I group commits together which belong together. So the reviewer can go commit by commit through my pull request and understand what&amp;rsquo;s going on.&lt;/p&gt;
 
-&lt;h3 id=&#34;an-example&#34;&gt;An example&lt;/h3&gt;
+&lt;h3 id=&#34;an-example:57fa6edd126b9dea34c141b29e2bdf16&#34;&gt;An example&lt;/h3&gt;
 
 &lt;p&gt;I mainly work with React in the frontend is the current project, so lets grab an issue from GitHub which is called &amp;ldquo;Add a switch component to the User registration form&amp;rdquo;. The steps we will complete the task is:&lt;/p&gt;
 
@@ -64,7 +64,7 @@
 
 &lt;p&gt;So we have around 3-4 commit with this pull request, everything is mixed up and from the timing of the commits and the grouping of the resulting code, it&amp;rsquo;s really hard to read. So here it comes, our rescue:&lt;/p&gt;
 
-&lt;h3 id=&#34;git-rebase-i-head-4&#34;&gt;git rebase -i HEAD~4&lt;/h3&gt;
+&lt;h3 id=&#34;git-rebase-i-head-4:57fa6edd126b9dea34c141b29e2bdf16&#34;&gt;git rebase -i HEAD~4&lt;/h3&gt;
 
 &lt;p&gt;Before we move on, we have to make sure that our current &amp;ldquo;develop&amp;rdquo; branch is up to date. Therefore we:&lt;/p&gt;
 
@@ -98,7 +98,7 @@
 &lt;li&gt;and then remove the &lt;code&gt;pick&lt;/code&gt; in front of the other commits and put a &lt;code&gt;s&lt;/code&gt; for &lt;code&gt;squash&lt;/code&gt; in front of them (in case you want to combine/squash them together into one commit)&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;what-does-it-bring-you&#34;&gt;What does it bring you?&lt;/h3&gt;
+&lt;h3 id=&#34;what-does-it-bring-you:57fa6edd126b9dea34c141b29e2bdf16&#34;&gt;What does it bring you?&lt;/h3&gt;
 
 &lt;p&gt;Well, it&amp;rsquo;s a nice idea to group commits together which belong together, so the reviewer of your code has an easier job going through each step and make a better sense of it. Also, your git history stays super clean and readable.&lt;/p&gt;
 
@@ -216,7 +216,7 @@
 
 &lt;p&gt;During this simple steps, I bricked the device twice, found some old post in some forum how to rebuild it and now I have working BeagleBone Black Wireless. In addition, I installed my own Go server on it to access it without a USB connection.&lt;/p&gt;
 
-&lt;h2 id=&#34;sane-howto-without-the-errors&#34;&gt;Sane HowTo (without the errors)&lt;/h2&gt;
+&lt;h2 id=&#34;sane-howto-without-the-errors:c9839e1618be674ef500bb2de1b277db&#34;&gt;Sane HowTo (without the errors)&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;Connect the BeagleBone with your Mac, wait until it&amp;rsquo;s booted, and then open the newly mounted Volume. In it, you find two drivers for the Mac you need to install before you can continue.&lt;/p&gt;&lt;/li&gt;
@@ -306,7 +306,7 @@
 
 &lt;p&gt;I realized that once I have made these decisions, I see some pretty cool side effects.&lt;/p&gt;
 
-&lt;h3 id=&#34;downsizing-my-phone&#34;&gt;Downsizing my phone&lt;/h3&gt;
+&lt;h3 id=&#34;downsizing-my-phone:4e05cfb913bc0c2f8b6adccc4005cd43&#34;&gt;Downsizing my phone&lt;/h3&gt;
 
 &lt;hr /&gt;
 
@@ -320,7 +320,7 @@
 
 &lt;p&gt;Summary: More money, more attention, less frustration, less occupied&lt;/p&gt;
 
-&lt;h3 id=&#34;biking-to-work&#34;&gt;Biking to work&lt;/h3&gt;
+&lt;h3 id=&#34;biking-to-work:4e05cfb913bc0c2f8b6adccc4005cd43&#34;&gt;Biking to work&lt;/h3&gt;
 
 &lt;hr /&gt;
 
@@ -335,7 +335,7 @@
 
 &lt;p&gt;Summary: More money, fitter and healthier&lt;/p&gt;
 
-&lt;h3 id=&#34;preparing-my-own-meals&#34;&gt;Preparing my own meals&lt;/h3&gt;
+&lt;h3 id=&#34;preparing-my-own-meals:4e05cfb913bc0c2f8b6adccc4005cd43&#34;&gt;Preparing my own meals&lt;/h3&gt;
 
 &lt;hr /&gt;
 
@@ -348,7 +348,7 @@
 
 &lt;p&gt;Summary: Saving money, healthier, more time with my partner&lt;/p&gt;
 
-&lt;h3 id=&#34;unsubscribing-from-newsletters&#34;&gt;Unsubscribing from Newsletters&lt;/h3&gt;
+&lt;h3 id=&#34;unsubscribing-from-newsletters:4e05cfb913bc0c2f8b6adccc4005cd43&#34;&gt;Unsubscribing from Newsletters&lt;/h3&gt;
 
 &lt;hr /&gt;
 
@@ -361,7 +361,7 @@
 
 &lt;p&gt;Summary: Not wasting money, more attention for other things&lt;/p&gt;
 
-&lt;h3 id=&#34;downsize-online-accounts&#34;&gt;Downsize Online accounts&lt;/h3&gt;
+&lt;h3 id=&#34;downsize-online-accounts:4e05cfb913bc0c2f8b6adccc4005cd43&#34;&gt;Downsize Online accounts&lt;/h3&gt;
 
 &lt;hr /&gt;
 
@@ -373,7 +373,7 @@
 
 &lt;p&gt;Summary: Less stress about online security, saving money&lt;/p&gt;
 
-&lt;h3 id=&#34;going-off-social-networks&#34;&gt;Going off Social Networks&lt;/h3&gt;
+&lt;h3 id=&#34;going-off-social-networks:4e05cfb913bc0c2f8b6adccc4005cd43&#34;&gt;Going off Social Networks&lt;/h3&gt;
 
 &lt;hr /&gt;
 
@@ -388,7 +388,7 @@
 
 &lt;p&gt;Summary: the best decision so far, both for my social as well as professional life&lt;/p&gt;
 
-&lt;h3 id=&#34;reading-emails-just-twice-a-day&#34;&gt;Reading emails just twice a day&lt;/h3&gt;
+&lt;h3 id=&#34;reading-emails-just-twice-a-day:4e05cfb913bc0c2f8b6adccc4005cd43&#34;&gt;Reading emails just twice a day&lt;/h3&gt;
 
 &lt;hr /&gt;
 
@@ -408,7 +408,7 @@
 &lt;li&gt;&lt;p&gt;I bike every day, therefore I have time to have a breakfast at home, which saves money. I can just stop on my way to work to pick up cheap food from street markets. I can easily meet friends on the way home.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;summary&#34;&gt;Summary&lt;/h2&gt;
+&lt;h2 id=&#34;summary:4e05cfb913bc0c2f8b6adccc4005cd43&#34;&gt;Summary&lt;/h2&gt;
 
 &lt;p&gt;This lifestyle doesn&amp;rsquo;t mean it needs to be like this forever. From a very minimal lifestyle, you can move faster, break fewer things, be more cost effective, be more healthy. Every day you feel less addictive and able to be the master of your own world again. Feel free to choose an iPhone again because you like Google Maps on the go and WhatsApp messaging. But, you might feel that every thing you add feels heavy and for the first time you feel all the clutter.&lt;/p&gt;
 
@@ -511,7 +511,7 @@ Not alone this, but the architecture of big and wide streets and sometimes narro
 
 &lt;h2&gt;Grown up projects&lt;/h2&gt;
 
-&lt;h3 id=&#34;claudia-castrone-portfolio-a-href-https-github-com-gruberb-ccastrone-portfolio-i-class-fa-fa-github-aria-hidden-true-i-a-a-href-https-clausi-herokuapp-com-i-class-fa-fa-globe-aria-hidden-true-i-a&#34;&gt;Claudia Castrone Portfolio (&lt;a href=&#34;https://github.com/gruberb/ccastrone-portfolio&#34;&gt;&lt;i class=&#34;fa fa-github&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;&lt;/a&gt;|&lt;a href=&#34;https://clausi.herokuapp.com&#34;&gt;&lt;i class=&#34;fa fa-globe&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;&lt;/a&gt;)&lt;/h3&gt;
+&lt;h3 id=&#34;claudia-castrone-portfolio-a-href-https-github-com-gruberb-ccastrone-portfolio-i-class-fa-fa-github-aria-hidden-true-i-a-a-href-https-clausi-herokuapp-com-i-class-fa-fa-globe-aria-hidden-true-i-a:3c42bb4157bf51d85ae7ffc4e1685909&#34;&gt;Claudia Castrone Portfolio (&lt;a href=&#34;https://github.com/gruberb/ccastrone-portfolio&#34;&gt;&lt;i class=&#34;fa fa-github&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;&lt;/a&gt;|&lt;a href=&#34;https://clausi.herokuapp.com&#34;&gt;&lt;i class=&#34;fa fa-globe&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;&lt;/a&gt;)&lt;/h3&gt;
 
 &lt;p&gt;&lt;img src=&#34;http://preview.ibb.co/jJ8pLk/cc.jpg&#34; title=&#34;cc&#34; /&gt;&lt;/p&gt;
 
@@ -523,7 +523,7 @@ Not alone this, but the architecture of big and wide streets and sometimes narro
 &lt;li&gt;Heroku&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;livingroomart-a-href-https-github-com-gruberb-livingroomart-i-class-fa-fa-github-aria-hidden-true-i-a&#34;&gt;LivingRoomArt (&lt;a href=&#34;https://github.com/gruberb/LivingRoomArt&#34;&gt;&lt;i class=&#34;fa fa-github&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;&lt;/a&gt;)&lt;/h3&gt;
+&lt;h3 id=&#34;livingroomart-a-href-https-github-com-gruberb-livingroomart-i-class-fa-fa-github-aria-hidden-true-i-a:3c42bb4157bf51d85ae7ffc4e1685909&#34;&gt;LivingRoomArt (&lt;a href=&#34;https://github.com/gruberb/LivingRoomArt&#34;&gt;&lt;i class=&#34;fa fa-github&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;&lt;/a&gt;)&lt;/h3&gt;
 
 &lt;p&gt;&lt;img src=&#34;https://image.ibb.co/cWrSDv/la.png&#34; title=&#34;LivingroomArt&#34;/&gt;&lt;/p&gt;
 
@@ -534,7 +534,7 @@ Not alone this, but the architecture of big and wide streets and sometimes narro
 &lt;li&gt;FileUpload: Amazon S3&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;opendecision-a-href-https-github-com-gruberb-opendecision-i-class-fa-fa-github-aria-hidden-true-i-a&#34;&gt;OpenDecision (&lt;a href=&#34;https://github.com/gruberb/OpenDecision&#34;&gt;&lt;i class=&#34;fa fa-github&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;&lt;/a&gt;)&lt;/h3&gt;
+&lt;h3 id=&#34;opendecision-a-href-https-github-com-gruberb-opendecision-i-class-fa-fa-github-aria-hidden-true-i-a:3c42bb4157bf51d85ae7ffc4e1685909&#34;&gt;OpenDecision (&lt;a href=&#34;https://github.com/gruberb/OpenDecision&#34;&gt;&lt;i class=&#34;fa fa-github&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;&lt;/a&gt;)&lt;/h3&gt;
 
 &lt;p&gt;&lt;img src=&#34;https://image.ibb.co/gUyURF/od.png&#34; title=&#34;OpenDecision&#34;/&gt;&lt;/p&gt;
 
@@ -544,7 +544,7 @@ Not alone this, but the architecture of big and wide streets and sometimes narro
 &lt;li&gt;Deployment: Heroku&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;chartistdirective-a-href-https-github-com-gruberb-chartistangulardirective-i-class-fa-fa-github-aria-hidden-true-i-a&#34;&gt;ChartistDirective (&lt;a href=&#34;https://github.com/gruberb/chartistAngularDirective&#34;&gt;&lt;i class=&#34;fa fa-github&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;&lt;/a&gt;)&lt;/h3&gt;
+&lt;h3 id=&#34;chartistdirective-a-href-https-github-com-gruberb-chartistangulardirective-i-class-fa-fa-github-aria-hidden-true-i-a:3c42bb4157bf51d85ae7ffc4e1685909&#34;&gt;ChartistDirective (&lt;a href=&#34;https://github.com/gruberb/chartistAngularDirective&#34;&gt;&lt;i class=&#34;fa fa-github&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;&lt;/a&gt;)&lt;/h3&gt;
 
 &lt;p&gt;&lt;img src=&#34;https://image.ibb.co/diMzRF/ca.png&#34; title=&#34;ChartistDirective&#34;/&gt;&lt;/p&gt;
 
@@ -552,7 +552,7 @@ Not alone this, but the architecture of big and wide streets and sometimes narro
 &lt;li&gt;AngularJS&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;companylunch-a-href-https-github-com-gruberb-companylunch-i-class-fa-fa-github-aria-hidden-true-i-a&#34;&gt;CompanyLunch (&lt;a href=&#34;https://github.com/gruberb/CompanyLunch&#34;&gt;&lt;i class=&#34;fa fa-github&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;&lt;/a&gt;)&lt;/h3&gt;
+&lt;h3 id=&#34;companylunch-a-href-https-github-com-gruberb-companylunch-i-class-fa-fa-github-aria-hidden-true-i-a:3c42bb4157bf51d85ae7ffc4e1685909&#34;&gt;CompanyLunch (&lt;a href=&#34;https://github.com/gruberb/CompanyLunch&#34;&gt;&lt;i class=&#34;fa fa-github&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;&lt;/a&gt;)&lt;/h3&gt;
 
 &lt;p&gt;&lt;img src=&#34;https://image.ibb.co/d3hZtv/rr.png&#34; title=&#34;CompanyLunch&#34;/&gt;&lt;/p&gt;
 

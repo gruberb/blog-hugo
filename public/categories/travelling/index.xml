@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Bastian Gruber</title>
-    <link>http://gruberbastian.com/categories/travelling/index.xml</link>
-    <description>Recent content on Bastian Gruber</description>
+    <title>Travelling on Bastian Gruber</title>
+    <link>http://gruberbastian.com/categories/travelling/</link>
+    <description>Recent content in Travelling on Bastian Gruber</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Thu, 01 Dec 2016 14:37:04 +0200</lastBuildDate>
     <atom:link href="http://gruberbastian.com/categories/travelling/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
