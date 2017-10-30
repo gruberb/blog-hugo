@@ -8,7 +8,7 @@ title = "Opening the machines"
 
 <img src="https://preview.ibb.co/ea18Am/DSC_0631.jpg" alt="DSC_0631" border="0">
 
-I am taking a break from the working world at the moment, and just finished travelling through North America for the last 3 months. Being back at my partner's parents' home in Canada, I browsed through the typical tech news at the end of a year. New iPhones here, better Google Pixels there. But, I am trying to apply a new rule for myself: Only buy something new if you have needed it every day for the past 30 days (with some minor exceptions of course).
+I am taking a break from the working world at the moment, and just finished travelling through North America for the last 3 months. Being back at my partner's parents' home in Canada, I browsed through the typical tech news at the end of a year. New iPhones here, better Google Pixels there. But, I am trying to apply a new rule for myself:Only buy something new if you have needed it every day for the past 30 days (with some minor exceptions of course).
 
 Before the trip, I sold my MacBook Pro to a friend, and just lost about 200 Euros from the time I bought it. The machine was my daily driver for around 2 years, so that’s not a bad deal at all. During the travels however, I thought about what happens when I am back in a normal day-to-day environment. I didn’t want to spend 2k for a Notebook, nor did I want to spend money on a cheap machine.
 
