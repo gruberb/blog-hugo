@@ -26,6 +26,8 @@ My options were therefore: bring it to a repair shop or fix it myself. I miss th
 
 Long story short: Opening up the thing is pretty easy. What’s not so easy is to remove the display. To get to the hinge screws you have to remove the famous black “clutch” which is between the keyboard and the display. Well, it didn’t go so well. It appears that the screws were not loose but the hinge itself seems to have a problem. I also broke the black clutch during the procedure and have to order a new one (10 Dollars).
 
+<img src="https://preview.ibb.co/kEVwwR/IMG_1060.jpg" alt="IMG_1060" border="0">
+
 ## Moral of the story
 
 After closing the MacBook and powering it on again, I had a different relationship to this thing. Simply, it lost its magic. Buying a Apple product has some awwws and wows in the beginning, but underneath they are just simple hardware components cramped together in a metal box. Also looking at the screen now I see parts of the inner workings of the MacBook because of the missing clutch.
