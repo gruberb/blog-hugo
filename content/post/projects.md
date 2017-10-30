@@ -21,7 +21,7 @@ title = "Pet Projects"
 
 <h2>Grown up projects</h2>
 
-### Claudia Castrone Portfolio (<a href="https://github.com/gruberb/ccastrone-portfolio"><i class="fa fa-github" aria-hidden="true"></i></a>|<a href="https://clausi.herokuapp.com"><i class="fa fa-globe" aria-hidden="true"></i></a>)
+### Claudia Castrone Portfolio (<a href="https://github.com/gruberb/ccastrone-portfolio"><i class="icon-github"></i></a> | <a href="https://clausi.herokuapp.com"><i class="icon-globe"></i></a>)
 <img src="http://preview.ibb.co/jJ8pLk/cc.jpg" title="cc" />
 
 - Good old jQuery
@@ -30,7 +30,7 @@ title = "Pet Projects"
 - HTML5/CSS3
 - Heroku
 
-### LivingRoomArt (<a href="https://github.com/gruberb/LivingRoomArt"><i class="fa fa-github" aria-hidden="true"></i></a>)
+### LivingRoomArt (<a href="https://github.com/gruberb/LivingRoomArt"><i class="icon-github"></i></a>)
 <img src="https://image.ibb.co/cWrSDv/la.png" title="LivingroomArt"/>
 
 - Frontend: AngularJS
@@ -38,7 +38,7 @@ title = "Pet Projects"
 - Deployment: Heroku
 - FileUpload: Amazon S3
 
-### OpenDecision (<a href="https://github.com/gruberb/OpenDecision"><i class="fa fa-github" aria-hidden="true"></i></a>)
+### OpenDecision (<a href="https://github.com/gruberb/OpenDecision"><i class="icon-github"></i></a>)
 <img src="https://image.ibb.co/gUyURF/od.png" title="OpenDecision"/>
 
  - Frontend: AngularJS
@@ -46,12 +46,12 @@ title = "Pet Projects"
  - Deployment: Heroku
 
 
-### ChartistDirective (<a href="https://github.com/gruberb/chartistAngularDirective"><i class="fa fa-github" aria-hidden="true"></i></a>)
+### ChartistDirective (<a href="https://github.com/gruberb/chartistAngularDirective"><i class="icon-github"></i></a>)
 <img src="https://image.ibb.co/diMzRF/ca.png" title="ChartistDirective"/>
 
  - AngularJS
 
-### CompanyLunch (<a href="https://github.com/gruberb/CompanyLunch"><i class="fa fa-github" aria-hidden="true"></i></a>)
+### CompanyLunch (<a href="https://github.com/gruberb/CompanyLunch"><i class="icon-github"></i></a>)
 <img src="https://image.ibb.co/d3hZtv/rr.png" title="CompanyLunch"/>
 
 - Frontend: ReactJS

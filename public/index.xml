@@ -6,8 +6,19 @@
     <description>Recent content on Bastian Gruber</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 04 May 2017 18:37:04 +0200</lastBuildDate>
-    <atom:link href="http://gruberbastian.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 30 Oct 2017 10:37:04 +0200</lastBuildDate>
+    
+	<atom:link href="http://gruberbastian.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Opening the machines</title>
+      <link>http://gruberbastian.com/post/openmachine/</link>
+      <pubDate>Mon, 30 Oct 2017 10:37:04 +0200</pubDate>
+      
+      <guid>http://gruberbastian.com/post/openmachine/</guid>
+      <description>I am taking a break from the working world at the moment, and just finised travelling through North America in the last 3 months. Being back at my partners parents home in Canada, I browsed through the typical tech news at the end of a year. New iPhones here, better Google Pixels there. But, I am trying to apply a new rule for myself: Never buy something new, and just buy something you have needed in the past 30 days every day (with some minor exceptions of course).</description>
+    </item>
     
     <item>
       <title>Git proficiency with rebase</title>
@@ -15,95 +26,10 @@
       <pubDate>Thu, 04 May 2017 18:37:04 +0200</pubDate>
       
       <guid>http://gruberbastian.com/post/gitprof/</guid>
-      <description>
-
-&lt;p&gt;I am a developer now for more than 10 years. Except a few years with SVN, I was solely working with Git. The best quote I got from one of my CTOs in the early days, was:&lt;/p&gt;
-
-&lt;p&gt;&amp;ldquo;Git is like the whole world, but we need just the size of a lake of it.&amp;rdquo;&lt;/p&gt;
-
-&lt;p&gt;You mainly use:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;git clone&lt;/li&gt;
-&lt;li&gt;git pull&lt;/li&gt;
-&lt;li&gt;git push&lt;/li&gt;
-&lt;li&gt;git add&lt;/li&gt;
-&lt;li&gt;git commit&lt;/li&gt;
-&lt;li&gt;git checkout and git checkout -b&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;That&amp;rsquo;s mostly it, right? Creating new branches, pushing them to Bitbucket or GitHub, and then merge them via the GUI of one of the two websites.&lt;/p&gt;
-
-&lt;p&gt;My latest project let me work with around 7 developers, and we all work on the same project, and on multiple GitHub issues at once. There, a simple &amp;ldquo;git merge develop MYBRANCH&amp;rdquo; didn&amp;rsquo;t cut it anymore. More was needed. And there I found it, the holy command of the year 2017. At least of my version of 2017.&lt;/p&gt;
-
-&lt;h3 id=&#34;git-rebase-i-head-3-and-other-funny-things:57fa6edd126b9dea34c141b29e2bdf16&#34;&gt;&amp;ldquo;git rebase -i HEAD~3&amp;rdquo; and other funny things.&lt;/h3&gt;
-
-&lt;p&gt;A colleague in the current project introduced me to a whole new world of telling &amp;ldquo;stories&amp;rdquo; with your git commits. Grouping them together so the reviewer gets a sense of what is going on and for which reason. Back then, in the old days, I would just commit around 10 times, push it all to GitHub and the reviewer went file for file and try to understand what&amp;rsquo;s going now.&lt;/p&gt;
-
-&lt;p&gt;Now though, I group commits together which belong together. So the reviewer can go commit by commit through my pull request and understand what&amp;rsquo;s going on.&lt;/p&gt;
-
-&lt;h3 id=&#34;an-example:57fa6edd126b9dea34c141b29e2bdf16&#34;&gt;An example&lt;/h3&gt;
-
-&lt;p&gt;I mainly work with React in the frontend is the current project, so lets grab an issue from GitHub which is called &amp;ldquo;Add a switch component to the User registration form&amp;rdquo;. The steps we will complete the task is:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;First find if an existing switch component exists&lt;/li&gt;
-&lt;li&gt;Grab the component and place it inside the existing form&lt;/li&gt;
-&lt;li&gt;Figure out we need to adjust the css slightly to make it work&lt;/li&gt;
-&lt;li&gt;Test the switch by hand in the browser&lt;/li&gt;
-&lt;li&gt;If everything works, we are happy and commit&lt;/li&gt;
-&lt;li&gt;Afterwards we realise we cannot use the return value of the Switch component (it&amp;rsquo;s on/off instead of true/false)&lt;/li&gt;
-&lt;li&gt;Therefore we rewrite the logic of the Switch&lt;/li&gt;
-&lt;li&gt;We wire the new switch with the existing user form logic&lt;/li&gt;
-&lt;li&gt;We test it, it works, we commit&lt;/li&gt;
-&lt;li&gt;We run the tests and figure out some old tests fail&lt;/li&gt;
-&lt;li&gt;We rewrite the tests, change some more logic, and commit&lt;/li&gt;
-&lt;li&gt;Now the linting fails, so we fix some idention issues and add missing semicolons&lt;/li&gt;
-&lt;li&gt;We commit and are done.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;So we have around 3-4 commit with this pull request, everything is mixed up and from the timing of the commits and the grouping of the resulting code, it&amp;rsquo;s really hard to read. So here it comes, our rescue:&lt;/p&gt;
-
-&lt;h3 id=&#34;git-rebase-i-head-4:57fa6edd126b9dea34c141b29e2bdf16&#34;&gt;git rebase -i HEAD~4&lt;/h3&gt;
-
-&lt;p&gt;Before we move on, we have to make sure that our current &amp;ldquo;develop&amp;rdquo; branch is up to date. Therefore we:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;git checkout develop&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;git pull&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;(&lt;code&gt;git pull&lt;/code&gt; works differently then &lt;code&gt;git pull origin develop&lt;/code&gt;. With &lt;code&gt;git pull&lt;/code&gt;, we&amp;rsquo;ll get the whole history of every branch, also from the remote ones.)&lt;/p&gt;
-
-&lt;p&gt;and then, checkout our feature branch again:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;git checkout 1234-switch-userform&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;And now comes the magic. We can group different commits together with the use of &lt;code&gt;git rebase -i HEAD~4&lt;/code&gt;. What this does, is:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Opens your standard terminal text editor (probably vi or vim)&lt;/li&gt;
-&lt;li&gt;Shows you the last 4 commits from the latest HEAD (HEAD~4)&lt;/li&gt;
-&lt;li&gt;Offers you options to pick, squash, drop, edit and fix commits&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://git-scm.com/docs/git-rebase&#34;&gt;Here is a nice overview of all the options&lt;/a&gt; you are given there.&lt;/p&gt;
-
-&lt;p&gt;Now you can pick and group commits together with:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;put a &lt;code&gt;pick&lt;/code&gt; in front of your first commit you want to combine&lt;/li&gt;
-&lt;li&gt;and then remove the &lt;code&gt;pick&lt;/code&gt; in front of the other commits and put a &lt;code&gt;s&lt;/code&gt; for &lt;code&gt;squash&lt;/code&gt; in front of them (in case you want to combine/squash them together into one commit)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;what-does-it-bring-you:57fa6edd126b9dea34c141b29e2bdf16&#34;&gt;What does it bring you?&lt;/h3&gt;
-
-&lt;p&gt;Well, it&amp;rsquo;s a nice idea to group commits together which belong together, so the reviewer of your code has an easier job going through each step and make a better sense of it. Also, your git history stays super clean and readable.&lt;/p&gt;
-
-&lt;p&gt;Think about a super way of documenting your process and code. Once you figured out the mechanics, it&amp;rsquo;s a huge boost in professionality and quality.&lt;/p&gt;
-</description>
+      <description>I am a developer now for more than 10 years. Except a few years with SVN, I was solely working with Git. The best quote I got from one of my CTOs in the early days, was:
+&amp;ldquo;Git is like the whole world, but we need just the size of a lake of it.&amp;rdquo;
+You mainly use:
+ git clone git pull git push git add git commit git checkout and git checkout -b  That&amp;rsquo;s mostly it, right?</description>
     </item>
     
     <item>
@@ -112,82 +38,8 @@
       <pubDate>Wed, 12 Apr 2017 10:40:41 +0100</pubDate>
       
       <guid>http://gruberbastian.com/post/switch/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://preview.ibb.co/jMyYBQ/sublime.png&#34; alt=&#34;sublime&#34;&gt;&lt;/p&gt;
-
-&lt;p&gt;Since the beginning of JavaScript on the desktop, aka &lt;a href=&#34;https://electron.atom.io/&#34;&gt;Electron&lt;/a&gt;, I was happily switching to &lt;a href=&#34;https://atom.io/&#34;&gt;GitHubs Atom text editor&lt;/a&gt;. The benefits are obvious:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Open Source&lt;/li&gt;
-&lt;li&gt;Written in JavaScript, my main langauge&lt;/li&gt;
-&lt;li&gt;Comes from a cool brand&lt;/li&gt;
-&lt;li&gt;Faster development cycles&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Ever since I switched, I loved Atom. Many plugins are enhancing your life as a developer. A few glitches here and there didn&amp;rsquo;t let me question my decision a few years ago.&lt;/p&gt;
-
-&lt;p&gt;Since today. I read on Hacker News that &lt;a href=&#34;https://www.sublimetext.com/3&#34;&gt;Sublime Text&lt;/a&gt; released a new (sub) version of their third version. Sublime Text was (or still is?) the standard text editor when it comes to coding. Or lets say the standard for everybody who is using macOS and a MacBook. So I gave the newest version a shot, and found out:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Who needs Open Source in your text editor if it runs so smoothly?&lt;/li&gt;
-&lt;li&gt;It&amp;rsquo;s written in C++ and Python, blazing fast&lt;/li&gt;
-&lt;li&gt;Who cares about the brand?&lt;/li&gt;
-&lt;li&gt;Slow development cycles, but very stable product&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;I changed a few things (themes, line heights etc.) and I am happier than ever. Here are my &lt;code&gt;user preferences&lt;/code&gt; &lt;em&gt;(Updated May 25th, 2017)&lt;/em&gt;:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;{
-  &amp;quot;bold_folder_labels&amp;quot;: true,
-  &amp;quot;caret_style&amp;quot;: &amp;quot;phase&amp;quot;,
-  &amp;quot;color_scheme&amp;quot;: &amp;quot;Packages/Dracula Color Scheme/Dracula.tmTheme&amp;quot;,
-  &amp;quot;ensure_newline_at_eof_on_save&amp;quot;: true,
-  &amp;quot;fade_fold_buttons&amp;quot;: false,
-  &amp;quot;find_selected_text&amp;quot;: true,
-  &amp;quot;folder_exclude_patterns&amp;quot;:
-  [
-    &amp;quot;.svn&amp;quot;,
-    &amp;quot;.git&amp;quot;,
-    &amp;quot;.hg&amp;quot;,
-    &amp;quot;CVS&amp;quot;,
-    &amp;quot;build&amp;quot;,
-    &amp;quot;node_modules&amp;quot;,
-    &amp;quot;bin&amp;quot;,
-    &amp;quot;coverage&amp;quot;
-  ],
-  &amp;quot;font_size&amp;quot;: 14,
-  &amp;quot;highlight_line&amp;quot;: true,
-  &amp;quot;ignored_packages&amp;quot;:
-  [
-    &amp;quot;Vintage&amp;quot;
-  ],
-  &amp;quot;line_padding_bottom&amp;quot;: 2,
-  &amp;quot;line_padding_top&amp;quot;: 2,
-  &amp;quot;node_modules_path&amp;quot;: &amp;quot;/usr/local/lib/node_modules&amp;quot;,
-  &amp;quot;node_path&amp;quot;: &amp;quot;/usr/local/bin&amp;quot;,
-  &amp;quot;translate_tabs_to_spaces&amp;quot;: true,
-  &amp;quot;detect_indentation&amp;quot;: false,
-  &amp;quot;tab_size&amp;quot;: 2,
-  &amp;quot;theme&amp;quot;: &amp;quot;One Dark.sublime-theme&amp;quot;,
-  &amp;quot;trim_trailing_white_space_on_save&amp;quot;: true
-}
-
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;The most important steps were:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://packagecontrol.io/installation&#34;&gt;Install the Package Manager&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://packagecontrol.io/packages/Theme%20-%20One%20Dark&#34;&gt;Switch to the One Dark theme from Atom&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Increase the font size to 14px&lt;/li&gt;
-&lt;li&gt;Add a bit of line padding to have more space for each line&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;I found some cool options like a fancy cursor:&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;&amp;quot;caret_style&amp;quot;: &amp;quot;phase&amp;quot;&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;Overall, this is the way to go. I feel super happy and hope that besides the cool new shiny Sublime Text logo is just the beginning of a new developer journey. Now, I am enjoying the same fancy look from Atom on top of a blazing fast and stable Sublime Text 3.&lt;/p&gt;
-</description>
+      <description>Since the beginning of JavaScript on the desktop, aka Electron, I was happily switching to GitHubs Atom text editor. The benefits are obvious:
+ Open Source Written in JavaScript, my main langauge Comes from a cool brand Faster development cycles  Ever since I switched, I loved Atom. Many plugins are enhancing your life as a developer. A few glitches here and there didn&amp;rsquo;t let me question my decision a few years ago.</description>
     </item>
     
     <item>
@@ -196,79 +48,8 @@
       <pubDate>Sun, 26 Mar 2017 10:20:55 +0100</pubDate>
       
       <guid>http://gruberbastian.com/post/go-beaglebone/</guid>
-      <description>
-
-&lt;p&gt;&lt;img src=&#34;https://preview.ibb.co/iN3fmF/header.jpg&#34; alt=&#34;BeagleBone&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;I have to admit, the power of IoT did not yet reach my little nerd life here in Berlin. Therefore, I took an effort this year and went to an IoT Hackathon. It was a fun weekend, I think there were just 5 developers and the rest of the crowd came from a social and educational background. Which made it even more fun and interesting.&lt;/p&gt;
-
-&lt;p&gt;Anyway, since this weekend I ordered a RaspberryPi and tried to do something useful with it. This idea, and my other habit of simplyfing my life clashed a little bit. So the RaspberryPi sat around for way too long with no real purpose. After browsing the internet though, I found an interesting &lt;a href=&#34;https://blog.sayan.ee/bbb&#34;&gt;post from Sayan who set up a BeagleBone board with Go&lt;/a&gt;. After React, Go is one of the new technologies I really like. After reading the article, I ordered the BeagleBone Black Wireless and waited impatiently for it to arrive.&lt;/p&gt;
-
-&lt;p&gt;Finally there, I did around 4 hours of trial and error to finally figure out how this little board works and what I have to do. Mainly, I wanted:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Install Debian on it&lt;/li&gt;
-&lt;li&gt;Booting it without the need of a SD Card&lt;/li&gt;
-&lt;li&gt;Run a Go server or something useful on it&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;At the Hackathon back then, I created a temperature and noise dashboard (&lt;a href=&#34;https://github.com/gruberb/IoTHack16&#34;&gt;code is on GitHub&lt;/a&gt;). Maybe the BeagleBone could do the same for me at home?&lt;/p&gt;
-
-&lt;p&gt;During this simple steps, I bricked the device twice, found some old post in some forum how to rebuild it and now I have working BeagleBone Black Wireless. In addition, I installed my own Go server on it to access it without a USB connection.&lt;/p&gt;
-
-&lt;h2 id=&#34;sane-howto-without-the-errors:c9839e1618be674ef500bb2de1b277db&#34;&gt;Sane HowTo (without the errors)&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Connect the BeagleBone with your Mac, wait until it&amp;rsquo;s booted, and then open the newly mounted Volume. In it, you find two drivers for the Mac you need to install before you can continue.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Afterwards, there is a &amp;ldquo;Flasher&amp;rdquo; version of Debian for the BBB. It will install the OS on the emmc of your board so you don&amp;rsquo;t need the SD Card every time you boot. I had problems finding a proper &amp;ldquo;Flash-Debian-EMMC-Version&amp;rdquo;. I tried a bunch of different ones, but nothing seemed to work. So I recommend this image here:&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;code&gt;wget https://rcn-ee.com/rootfs/2017-03-09/flasher/BBB-eMMC-flasher-debian-8.7-console-armhf-2017-03-09-2gb.img.xz&lt;/code&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Download it, and then unarchive it with Unarchiver for Mac or 7zip.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;You can now use your Terminal to create a working SD Card with this image, or &lt;a href=&#34;https://etcher.io&#34;&gt;just use this tool&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;code&gt;sudo dd if=BBB-eMMC-flasher-debian-7.5-2014-05-14-2gb.img of=/dev/disk2s1&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://preview.ibb.co/b5mY6F/status.jpg&#34; alt=&#34;WGET image&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;To find out the name of the SD Card, insert it and execute:&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;df -h&lt;/code&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Power off your BeagleBone Black, unplugg the power/usb cord, and insert the SD Card.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Hold down the S2 button, and while holding it down, plug the power/usb cable in.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://preview.ibb.co/bt7Ufa/s2.jpg&#34; alt=&#34;S2 Button BeagleBone&#34; /&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;The LEDs need to light up at least once, afterwards you can release the S2 button again.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;CRITICAL: This step didn&amp;rsquo;t work for me in a long time. What I did was to find the right image, and during this process plug the BeagleBone onto a power outlet and NOT via the USB cable in the Mac.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;The LEDS are doing now some crazy things, lighting up in order 1-2-3-4-3-2-1-2&amp;hellip;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;The system is shutting itself down.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Plug the BeagleBone back to your Mac, wait until it&amp;rsquo;s booted, and then look at the right IP address in the network settings of your Mac.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Open the Terminal and execute this command (with the right IP address)
-&lt;code&gt;ssh debian@192.168.6.2&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;The password is &lt;code&gt;tmppwd&lt;/code&gt; and can be changed.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Voilà, you have a working BeagleBone Black Wireless!&lt;/p&gt;
-</description>
+      <description>I have to admit, the power of IoT did not yet reach my little nerd life here in Berlin. Therefore, I took an effort this year and went to an IoT Hackathon. It was a fun weekend, I think there were just 5 developers and the rest of the crowd came from a social and educational background. Which made it even more fun and interesting.
+Anyway, since this weekend I ordered a RaspberryPi and tried to do something useful with it.</description>
     </item>
     
     <item>
@@ -277,143 +58,9 @@
       <pubDate>Mon, 27 Feb 2017 09:51:55 +0100</pubDate>
       
       <guid>http://gruberbastian.com/post/sideeffects/</guid>
-      <description>
-
-&lt;p&gt;For quite a long time now, I have been reading these two books:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.goodreads.com/book/show/9519944-early-retirement-extreme?from_search=true&#34;&gt;Early Retirement Extreme&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.goodreads.com/book/show/78428.Your_Money_or_Your_Life&#34;&gt;Your Money or Your Life&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;These titles suggest that it&amp;rsquo;s all about earning lots of money and then coasting your way through life. After reading the first few pages however, it becomes clear that the goal of these books is to provide you with a new mindset.&lt;/p&gt;
-
-&lt;p&gt;You can see all the hipsters in big cities are trying to do the same: eat locally, cook your own food, be aware of the consequences of your actions. In addition, Yoga and eastern philosophies are becoming trendy as well: be one with your environment, be aware of your needs and yourself.&lt;/p&gt;
-
-&lt;p&gt;But in the western world we live a rather consumerist lifestyle, and this is where these two books, from the very beginning, want to make a change.&lt;/p&gt;
-
-&lt;p&gt;Inspired by these ideas, and my long history of trying things out and pushing myself, I&amp;rsquo;ve tried to combine some of these ideas to some life changes:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Going from an iPhone to a dumb phone (Nokia 150)&lt;/li&gt;
-&lt;li&gt;Biking to work (15km return)&lt;/li&gt;
-&lt;li&gt;Preparing my own meals and eating at home&lt;/li&gt;
-&lt;li&gt;Unsubscribing from newsletters&lt;/li&gt;
-&lt;li&gt;Downsizing my online accounts from ~120 to 30.&lt;/li&gt;
-&lt;li&gt;Going off social networks&lt;/li&gt;
-&lt;li&gt;Reading my emails only twice a day&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;I realized that once I have made these decisions, I see some pretty cool side effects.&lt;/p&gt;
-
-&lt;h3 id=&#34;downsizing-my-phone:4e05cfb913bc0c2f8b6adccc4005cd43&#34;&gt;Downsizing my phone&lt;/h3&gt;
-
-&lt;hr /&gt;
-
-&lt;ul&gt;
-&lt;li&gt;No more buying apps (saving money)&lt;/li&gt;
-&lt;li&gt;Wasting less time on it (higher concentration span)&lt;/li&gt;
-&lt;li&gt;Only using it while at home (taking the environment in)&lt;/li&gt;
-&lt;li&gt;Saving time and frustration by charging it just once a week&lt;/li&gt;
-&lt;li&gt;Saving money on my phone plan (6,50 Euro instead of 45 a month)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Summary: More money, more attention, less frustration, less occupied&lt;/p&gt;
-
-&lt;h3 id=&#34;biking-to-work:4e05cfb913bc0c2f8b6adccc4005cd43&#34;&gt;Biking to work&lt;/h3&gt;
-
-&lt;hr /&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Not using Spotify to listen to music on the way to work (saving money and 1 online account)&lt;/li&gt;
-&lt;li&gt;Working out (saving money and time not going to the gym)&lt;/li&gt;
-&lt;li&gt;Working out (be more healthy and fit)&lt;/li&gt;
-&lt;li&gt;Knowing roads, street names, and the city much better&lt;/li&gt;
-&lt;li&gt;Being less dependent on traffic and public transport&lt;/li&gt;
-&lt;li&gt;Saving money every month by not buying tickets for public transport&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Summary: More money, fitter and healthier&lt;/p&gt;
-
-&lt;h3 id=&#34;preparing-my-own-meals:4e05cfb913bc0c2f8b6adccc4005cd43&#34;&gt;Preparing my own meals&lt;/h3&gt;
-
-&lt;hr /&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Knowing how to cook, being self sufficient&lt;/li&gt;
-&lt;li&gt;Higher quality of food, and therefore healthier&lt;/li&gt;
-&lt;li&gt;Mediative cooking to calm down after working&lt;/li&gt;
-&lt;li&gt;Cooking with my partner to share stories and moments together&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Summary: Saving money, healthier, more time with my partner&lt;/p&gt;
-
-&lt;h3 id=&#34;unsubscribing-from-newsletters:4e05cfb913bc0c2f8b6adccc4005cd43&#34;&gt;Unsubscribing from Newsletters&lt;/h3&gt;
-
-&lt;hr /&gt;
-
-&lt;ul&gt;
-&lt;li&gt;I don&amp;rsquo;t see things I &amp;ldquo;need&amp;rdquo; to buy&lt;/li&gt;
-&lt;li&gt;Less clutter in my life&lt;/li&gt;
-&lt;li&gt;Less things coming in my life which need attention&lt;/li&gt;
-&lt;li&gt;More focus&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Summary: Not wasting money, more attention for other things&lt;/p&gt;
-
-&lt;h3 id=&#34;downsize-online-accounts:4e05cfb913bc0c2f8b6adccc4005cd43&#34;&gt;Downsize Online accounts&lt;/h3&gt;
-
-&lt;hr /&gt;
-
-&lt;ul&gt;
-&lt;li&gt;No need for a password manager (save money)&lt;/li&gt;
-&lt;li&gt;Less worry about sites get hacked and passwords stolen&lt;/li&gt;
-&lt;li&gt;Less subscriptions and therefore saving more money&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Summary: Less stress about online security, saving money&lt;/p&gt;
-
-&lt;h3 id=&#34;going-off-social-networks:4e05cfb913bc0c2f8b6adccc4005cd43&#34;&gt;Going off Social Networks&lt;/h3&gt;
-
-&lt;hr /&gt;
-
-&lt;ul&gt;
-&lt;li&gt;I have to be intentional keeping friendships alive&lt;/li&gt;
-&lt;li&gt;I have to take an effort to write and get in touch with people&lt;/li&gt;
-&lt;li&gt;Less clutter every day, less news&lt;/li&gt;
-&lt;li&gt;Less attention stolen from my day&lt;/li&gt;
-&lt;li&gt;My brain doesn&amp;rsquo;t need to process useless information every day&lt;/li&gt;
-&lt;li&gt;My brain needs to filter less bullshit and therefore I have more energy to do the things I care about&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Summary: the best decision so far, both for my social as well as professional life&lt;/p&gt;
-
-&lt;h3 id=&#34;reading-emails-just-twice-a-day:4e05cfb913bc0c2f8b6adccc4005cd43&#34;&gt;Reading emails just twice a day&lt;/h3&gt;
-
-&lt;hr /&gt;
-
-&lt;ul&gt;
-&lt;li&gt;One addiction less. I feel calmer the whole day&lt;/li&gt;
-&lt;li&gt;I am the master of my own time&lt;/li&gt;
-&lt;li&gt;I take my time to answer and write emails, and therefore write less overall&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Summary: More freedom in my day-to-day life&lt;/p&gt;
-
-&lt;p&gt;But, side effects didn&amp;rsquo;t just occur for each category, they promote each other:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Less email reading, means less online accounts, means fewer apps, means no need for a smartphone, which means I am free to travel around and can drop phones here and there without loosing private information. I can switch phones much faster if I need to because they cost less money and store almost no private information (good for traveling abroad).&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;I bike every day, therefore I have time to have a breakfast at home, which saves money. I can just stop on my way to work to pick up cheap food from street markets. I can easily meet friends on the way home.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;summary:4e05cfb913bc0c2f8b6adccc4005cd43&#34;&gt;Summary&lt;/h2&gt;
-
-&lt;p&gt;This lifestyle doesn&amp;rsquo;t mean it needs to be like this forever. From a very minimal lifestyle, you can move faster, break fewer things, be more cost effective, be more healthy. Every day you feel less addictive and able to be the master of your own world again. Feel free to choose an iPhone again because you like Google Maps on the go and WhatsApp messaging. But, you might feel that every thing you add feels heavy and for the first time you feel all the clutter.&lt;/p&gt;
-
-&lt;p&gt;It&amp;rsquo;s the same feeling as quitting smoking. Beofre you quit, you feel a relief when you are a smoker: standing outside and having a cigarette after a heavy meal. But once you are off cigarettes, you feel the burden to smoke is gone. The same is true for all addictions and clutter in your life. In the beginning, it feels like these things give us safety and stability, but those can also come from within. Which means more money, more freedom and a happier life overall.&lt;/p&gt;
-</description>
+      <description>For quite a long time now, I have been reading these two books:
+ Early Retirement Extreme Your Money or Your Life  These titles suggest that it&amp;rsquo;s all about earning lots of money and then coasting your way through life. After reading the first few pages however, it becomes clear that the goal of these books is to provide you with a new mindset.
+You can see all the hipsters in big cities are trying to do the same: eat locally, cook your own food, be aware of the consequences of your actions.</description>
     </item>
     
     <item>
@@ -422,20 +69,7 @@
       <pubDate>Mon, 12 Dec 2016 20:37:04 +0200</pubDate>
       
       <guid>http://gruberbastian.com/post/devops/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://image.ibb.co/imDDmF/scrum.jpg&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;For my latest client, I got hired as a Fullstack JavaScript developer, plus DevOps, plus Frontend. The project is to rebuild the old PHP codebase onto a new stack containing Node, Angular and Microservices. The deployment is done via Docker and DockerCloud, hosted partly on AWS servers. As complicated as it sounds, new projects don&amp;rsquo;t have the nitty gritty problems legacy systems have. I think what you have to bring to such a project is a broad understanding of each technology and how they interact together.&lt;/p&gt;
-
-&lt;p&gt;My previous position was as a Senior Frontend Developer, working with Angular 1 and 2. There, you have to have a deep understanding of the framework, and how to get the latest percentages of performance out. As well as how to constantly refactor an ever growing codebase. So sometimes people think that to setup the whole stack, they have to have a really deep understanding of every technology. But sometimes, it&amp;rsquo;s just not needed. You can set up a MongoDB database for a certain microservice, just knowing this form of database works fine. Later on, you can hire a Mongo specialist or look deeper into how to scale and improve performance with this technology.&lt;/p&gt;
-
-&lt;p&gt;This gives you a lot of freedom, but also responsibility. What I deal with at the moment, are the so called &amp;ldquo;DevOps&amp;rdquo;. Since my last project was implementing NodeJS patterns and structure, I sort of feel the beauty of the pure analytical work of setting up and monitoring services. There is no big guessing or &amp;ldquo;let&amp;rsquo;s see&amp;rdquo; factor. It&amp;rsquo;s different approach then pure programming. Finally, you have to have a clear picture of which service should talk to which, how they should give feedback and how and with which tools you measure performance.&lt;/p&gt;
-
-&lt;p&gt;Again, all the little details can be nasty and hard, but for the first few days after this shift in perspective, you have the feeling of power and overview of the system. In return, it helps to understand when a service should respond with critical feedback, and what this feedback should look like. Sometimes, Sometimes I think, starting from this perspective can help decide which service should contain which logic, and how big a certain microservice should get.&lt;/p&gt;
-
-&lt;p&gt;As a front end developer, I appreciate starting the project with a clear UX/UI guideline and idea. From a backend developer perspective, I now appreciate the DevOps-First perspective. Once you know how the system should respond in different situations, than you know you how to structure your codebase.&lt;/p&gt;
-
-&lt;p&gt;Implementing a monitoring microservice, which receives important messages from other services, sends them to an InfluxDB, and Grafana takes this data to display the current affairs. Seeing how well and nicely this all plays out gives every developer a warm heart. What more can you ask for just before Christmas?&lt;/p&gt;
-</description>
+      <description>For my latest client, I got hired as a Fullstack JavaScript developer, plus DevOps, plus Frontend. The project is to rebuild the old PHP codebase onto a new stack containing Node, Angular and Microservices. The deployment is done via Docker and DockerCloud, hosted partly on AWS servers. As complicated as it sounds, new projects don&amp;rsquo;t have the nitty gritty problems legacy systems have. I think what you have to bring to such a project is a broad understanding of each technology and how they interact together.</description>
     </item>
     
     <item>
@@ -444,50 +78,7 @@
       <pubDate>Thu, 01 Dec 2016 14:37:04 +0200</pubDate>
       
       <guid>http://gruberbastian.com/post/usedum/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://image.ibb.co/dAJeRF/usedum_bridge.jpg&#34; alt=&#34;Bridge into the baltic&#34;/&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;h2&gt;Hectic and grey&lt;/h2&gt;
-&lt;p&gt;Berlin is vibrant, always “on” and full of inspirational people. If you are looking for something, you will find it. But, what makes the city such a astounding place to live in, is also the reason why it is draining your energy and emotions.
-Not alone this, but the architecture of big and wide streets and sometimes narrow and huge houses are great in the summer, but aweful to look at in Winter. The sun comes out from noon to around 4 PM, and doesn’t leave much warmth and energy to consume.&lt;/p&gt;
-&lt;p&gt;Therefore I started the habit to leave the city around this time of the year, escaping the bitterness and getting some rest and energy in other places in Europe. This time, I stayed in Germany and went with my partner to Usedom, which is an area at the Baltic Sea.&lt;/p&gt;
-&lt;img src=&#34;https://image.ibb.co/g6qXfa/karlshagen.png&#34; alt=&#34;Karlshagen&#34;/&gt;
-&lt;p&gt;What makes Germany such a livable country is it’s ability to travel for around 2 hours maximum out of every big city and be in the middle of an rural area. The train system definitely deserves it’s international fame.&lt;/p&gt;
-&lt;p&gt;It’s interesting how you can immediately feel the difference in the culture of the people the further you go out of booming areas like Munich, Berlin or Hamburg. Each part of the country has it’s own culture, but shares the same core values or behaviours. People tend to be more shy, conscious about privacy and careful about visitors and people not from this area.&lt;/p&gt;
-&lt;p&gt;You have to ask yourself why. With a country this small, one can think that it’s easy to have one more or less common behaviour. It’s astounding how it differs, even from small city to small city. Part of the reason could be that germans don’t like to travel longer distances during the week or weekends. Even a 3-4 hours train ride is something just for the holidays or special occasions.&lt;/p&gt;
-&lt;img src=&#34;https://image.ibb.co/dsdk0a/usedum_train.jpg&#34; alt=&#34;Train to Karlshagen&#34;/&gt;
-&lt;p&gt;Well, having a partner from Canada lets you rethink about this behaviour, and easily book a 44 Euro so called “Ostsee-Ticket” to go up north.&lt;/p&gt;
-&lt;quote&gt;“Growing up in a small village with 200 people made me understand this behaviour, living in bigger cities ever since let me go past and exploit it.”&lt;/quote&gt;
-&lt;p&gt;Arriving at our last train stops in Zinnowitz, you could feel how uncomfortable people are when somebody is walking around with a DSLR and taking pictures. Growing up in a small village with 200 people made me understand this behaviour, living in bigger cities ever since let me go past and exploit it.&lt;/p&gt;
-&lt;img src=&#34;https://image.ibb.co/hHDw6F/usedum_trainstation.jpg&#34; alt=&#34;Kralshagen train station&#34;/&gt;
-&lt;img src=&#34;https://image.ibb.co/frXCfa/usedum_trainrails.jpg&#34; alt=&#34;Karlshagen train rails&#34;/&gt;
-&lt;p&gt;Nevertheless, we arrived safely and already well adjusted to the environment. The air smelled fresher, and the pace of a small town has an immediate impact also on your mental health. We walked the 900m from the train station in Karlshagen to the house we rented.&lt;/p&gt;
-&lt;h2&gt;Arriving in Karlshagen&lt;/h2&gt;
-&lt;p&gt;On our way there, we passed by big buildings with multiple apartments in it. It was clear from the beginning that this is a tourist region. No big factories, just paying customers mostly over the summer to see the nature and the beauty of northern Germany.&lt;/p&gt;
-&lt;img src=&#34;https://image.ibb.co/frXCfa/usedum_trainrails.jpg&#34; alt=&#34;Apartments in Karlshagen&#34;/&gt;
-&lt;img src=&#34;https://image.ibb.co/bQpQ0a/usedum_holidayhouses.jpg&#34; alt=&#34;Holiday homes&#34;/&gt;
-&lt;p&gt;The political background of the region, and especially Karlshagen, is as every smaller town in Germany strongly coined by the second world war. The whole area was a Nazi research camp, with factories for rockets and KZ where jews were hold and killed. The current political mindset is mostly left, with over 40% voting for “Die Linke”, and another 40% for their own funded political party.&lt;/p&gt;
-&lt;p&gt;Needless to say, there were 100% white germans in this town. No foreigner would move to this part of Germany with almost nothing to offer other than nature. My guess is, you have to have roots in this community to live there and enjoy it.&lt;/p&gt;
-&lt;p&gt;The prices for those homes are not skyrocketing. Fall and Winter are not the high seasons, so you can get one night for a 4 bedroom apartment with 2 bathrooms, a huge kitchen and living room plus sauna for around 120 Euro a night. This house could easily fit 3-4 couples or two families. During summer, when everything is green and you could actually go into the baltic sea, the prices go up to around 350 Euro per night.&lt;/p&gt;
-&lt;img src=&#34;https://image.ibb.co/ncLtmF/usedum_kitchen.jpg&#34; alt=&#34;Holiday home kitchen&#34;/&gt;
-&lt;img src=&#34;https://image.ibb.co/gRqZRF/usedum_livingroom.jpg&#34; alt=&#34;Holiday home livingroom&#34;/&gt;
-&lt;p&gt;To get the keys, you call the company you book the house, and a person will arrive shortly after to hand you over the keys with some information about the town and close by sights. After unpacking and settling in, we went and explored the coast.&lt;/p&gt;
-&lt;p&gt;We walked by the first few restaurants, where the opening times reflected the amount of people visiting at those cold autumn days. For breakfast, you have to be there from 9 to 11 AM, and for coffee and cake around 2 to 4 PM. Our plan was also to rent some bikes, instead of bringing our own.&lt;/p&gt;
-&lt;p&gt;There, modernity arrived in Karlshagen. There are several bike spots with locked bikes. You can call a number to register at “Usedum Bike Rental” and pay 9 Euro for 24h of having a bike. You will get the code for the lock by phone and can bring it back to any station you want. Really convenient and not expensive. The bikes itself are solid. No mountain or race bikes, but good enough to bike the whole day long.&lt;/p&gt;
-&lt;p&gt;After 10 minutes of walking, we arrived at the coast and could feel the wind of the sea and smell the fresh air.&lt;/p&gt;
-&lt;img src=&#34;https://image.ibb.co/j62g6F/usedum_beach.jpg&#34; alt=&#34;Karlshagen beach&#34;/&gt;
-&lt;p&gt;There were around 10 people around the beach, and in far distance from each other. We came for a quiet and calm down week and this is what we got.&lt;/p&gt;
-&lt;h2&gt;A normal day in Karlshagen&lt;/h2&gt;
-&lt;p&gt;After exploring the environment and getting a good amount of nature, we got back inside to start our routine of sauna, cooking and watching an episode of Black Mirror or two.&lt;/p&gt;
-&lt;img src=&#34;https://image.ibb.co/m14TmF/usedum_sauna.jpg&#34; alt=&#34;Holiday home sauna&#34;/&gt;
-&lt;img src=&#34;https://image.ibb.co/hmqetv/usedum_dinner.jpg&#34; alt=&#34;Dinner&#34;/&gt;
-&lt;img src=&#34;https://image.ibb.co/nuYFYv/usedum_writing.jpg&#34; alt=&#34;Couch and MacBook&#34;/&gt;
-&lt;p&gt;The houses next to ours were all empty until the very last night, so no kids noises or loud discussions. Closes the door was the effort to make for having a quiet and relaxing afternoon and evening. The advantage of the place was that it has two floors. The bedroom was upstairs, so sleeping and living was separated. Perfect for leaving the living room not super tidy and still be able to switch your mind into sleep mode.&lt;/p&gt;
-&lt;p&gt;For cooking and preparing meals, the kitchen had everything to offer and more. There were around 20 sets of dishes for all possible occasions. We wouldn’t even need the dishwashers, but did so after each meal.
-&lt;/p&gt;
-&lt;p&gt;The next shopping opportunity for groceries was “Paul”, the nearby Edeka. It was around 2 bike minutes or 10 by foot away. It had everything to offer and also included a bakery with fresh baked goods for breakfast.&lt;/p&gt;
-&lt;img src=&#34;https://image.ibb.co/f0Hnfa/usedum_edeka.jpg&#34; alt=&#34;Edeka in Karlshagen&#34;/&gt;
-&lt;img src=&#34;https://image.ibb.co/mG34RF/usedum_breakfast.jpg&#34; alt=&#34;Breakfast&#34;/&gt;&lt;/p&gt;
-</description>
+      <description>Hectic and grey Berlin is vibrant, always “on” and full of inspirational people. If you are looking for something, you will find it. But, what makes the city such a astounding place to live in, is also the reason why it is draining your energy and emotions. Not alone this, but the architecture of big and wide streets and sometimes narrow and huge houses are great in the summer, but aweful to look at in Winter.</description>
     </item>
     
     <item>
@@ -496,72 +87,8 @@ Not alone this, but the architecture of big and wide streets and sometimes narro
       <pubDate>Sat, 08 Oct 2016 14:37:04 +0200</pubDate>
       
       <guid>http://gruberbastian.com/post/projects/</guid>
-      <description>
-
-&lt;p&gt;&lt;img src=&#34;https://image.ibb.co/jTS0Yv/focus.jpg&#34; alt=&#34;picture of Bastian Gruber&#34;/&gt;
-&lt;br /&gt;
-&lt;h2&gt;All the little things&lt;/h2&gt;
-&lt;ul&gt;
-    &lt;li&gt;&lt;a href=&#34;https://github.com/gruberb/CS193P-2016-iOS9&#34;&gt;iOS app: Calculator [Swift]&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&#34;https://github.com/gruberb/firemarksBackend&#34;&gt;Webservice: Bookmarking backend [Golang]&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&#34;https://github.com/gruberb/NumberGuessing&#34;&gt;Command line: Number guessing [Rust]&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&#34;https://github.com/gruberb/ImageRecon&#34;&gt;Command line: Image AI [NodeJS, GoogleVisionAPI]&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&#34;https://github.com/gruberb/TwitterWhoUnfollowedYou&#34;&gt;Command line: Who unfollowed you on twitter? [Python]&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;
-
-&lt;h2&gt;Grown up projects&lt;/h2&gt;
-
-&lt;h3 id=&#34;claudia-castrone-portfolio-a-href-https-github-com-gruberb-ccastrone-portfolio-i-class-fa-fa-github-aria-hidden-true-i-a-a-href-https-clausi-herokuapp-com-i-class-fa-fa-globe-aria-hidden-true-i-a:3c42bb4157bf51d85ae7ffc4e1685909&#34;&gt;Claudia Castrone Portfolio (&lt;a href=&#34;https://github.com/gruberb/ccastrone-portfolio&#34;&gt;&lt;i class=&#34;fa fa-github&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;&lt;/a&gt;|&lt;a href=&#34;https://clausi.herokuapp.com&#34;&gt;&lt;i class=&#34;fa fa-globe&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;&lt;/a&gt;)&lt;/h3&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://preview.ibb.co/jJ8pLk/cc.jpg&#34; title=&#34;cc&#34; /&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Good old jQuery&lt;/li&gt;
-&lt;li&gt;Foundation 6&lt;/li&gt;
-&lt;li&gt;JavaScript&lt;/li&gt;
-&lt;li&gt;HTML5/CSS3&lt;/li&gt;
-&lt;li&gt;Heroku&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;livingroomart-a-href-https-github-com-gruberb-livingroomart-i-class-fa-fa-github-aria-hidden-true-i-a:3c42bb4157bf51d85ae7ffc4e1685909&#34;&gt;LivingRoomArt (&lt;a href=&#34;https://github.com/gruberb/LivingRoomArt&#34;&gt;&lt;i class=&#34;fa fa-github&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;&lt;/a&gt;)&lt;/h3&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://image.ibb.co/cWrSDv/la.png&#34; title=&#34;LivingroomArt&#34;/&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Frontend: AngularJS&lt;/li&gt;
-&lt;li&gt;Backend: NodeJS, ExpressJS, MongoDB&lt;/li&gt;
-&lt;li&gt;Deployment: Heroku&lt;/li&gt;
-&lt;li&gt;FileUpload: Amazon S3&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;opendecision-a-href-https-github-com-gruberb-opendecision-i-class-fa-fa-github-aria-hidden-true-i-a:3c42bb4157bf51d85ae7ffc4e1685909&#34;&gt;OpenDecision (&lt;a href=&#34;https://github.com/gruberb/OpenDecision&#34;&gt;&lt;i class=&#34;fa fa-github&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;&lt;/a&gt;)&lt;/h3&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://image.ibb.co/gUyURF/od.png&#34; title=&#34;OpenDecision&#34;/&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Frontend: AngularJS&lt;/li&gt;
-&lt;li&gt;Backend: NodeJS, ExpressJS, MongoDB&lt;/li&gt;
-&lt;li&gt;Deployment: Heroku&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;chartistdirective-a-href-https-github-com-gruberb-chartistangulardirective-i-class-fa-fa-github-aria-hidden-true-i-a:3c42bb4157bf51d85ae7ffc4e1685909&#34;&gt;ChartistDirective (&lt;a href=&#34;https://github.com/gruberb/chartistAngularDirective&#34;&gt;&lt;i class=&#34;fa fa-github&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;&lt;/a&gt;)&lt;/h3&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://image.ibb.co/diMzRF/ca.png&#34; title=&#34;ChartistDirective&#34;/&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;AngularJS&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;companylunch-a-href-https-github-com-gruberb-companylunch-i-class-fa-fa-github-aria-hidden-true-i-a:3c42bb4157bf51d85ae7ffc4e1685909&#34;&gt;CompanyLunch (&lt;a href=&#34;https://github.com/gruberb/CompanyLunch&#34;&gt;&lt;i class=&#34;fa fa-github&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;&lt;/a&gt;)&lt;/h3&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://image.ibb.co/d3hZtv/rr.png&#34; title=&#34;CompanyLunch&#34;/&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Frontend: ReactJS&lt;/li&gt;
-&lt;li&gt;Backend: NodeJS, ExpressJS, MongoDB&lt;/li&gt;
-&lt;li&gt;Deployment: Heroku&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+      <description> All the little things  iOS app: Calculator [Swift] Webservice: Bookmarking backend [Golang] Command line: Number guessing [Rust] Command line: Image AI [NodeJS, GoogleVisionAPI] Command line: Who unfollowed you on twitter? [Python] 
+Grown up projects Claudia Castrone Portfolio ( | )  Good old jQuery Foundation 6 JavaScript HTML5/CSS3 Heroku  LivingRoomArt ()  Frontend: AngularJS Backend: NodeJS, ExpressJS, MongoDB Deployment: Heroku FileUpload: Amazon S3  OpenDecision ()  Frontend: AngularJS Backend: NodeJS, ExpressJS, MongoDB Deployment: Heroku  ChartistDirective ()  AngularJS  CompanyLunch ()  Frontend: ReactJS Backend: NodeJS, ExpressJS, MongoDB Deployment: Heroku  </description>
     </item>
     
     <item>
@@ -570,79 +97,8 @@ Not alone this, but the architecture of big and wide streets and sometimes narro
       <pubDate>Mon, 03 Oct 2016 16:37:27 +0200</pubDate>
       
       <guid>http://gruberbastian.com/post/about/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://image.ibb.co/cDiURF/me.jpg&#34; alt=&#34;picture of Bastian Gruber&#34;/&gt;&lt;/p&gt;
-
-&lt;p&gt;That&amp;rsquo;s me, Bastian, a passionate software developer. I am using Go, JavaScript and HTML/CSS to create web applications, and always keen and happy to help a software project to thrive. Next to coding I am a tech writer, mostly for Apple magazines. I also contribute to various german tech magazines. Those two professions let me earn enough money to appreciate and learn other hobbies like photography and improvisation theatre.&lt;/p&gt;
-
-&lt;p&gt;It&amp;rsquo;s hard to define languages and skills, since I am constantly challenged with new architectures, ideas and platforms. But, I am very comfortable using following tools to help your project:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;JavaScript (NodeJS, AngularJS 1 + 2, ReactJS)&lt;/li&gt;
-&lt;li&gt;Go&lt;/li&gt;
-&lt;li&gt;MongoDB&lt;/li&gt;
-&lt;li&gt;Deployment via Docker on AWS (and others like Heroku)&lt;/li&gt;
-&lt;li&gt;Continous deployment and delivery&lt;/li&gt;
-&lt;li&gt;Testing with Jasmine, Mocha, Sinon and ShouldJS&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;I also implement code patterns and &amp;ldquo;behaviours&amp;rdquo;:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Testing first, then implementing the functionality (TDD)&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;Object Oriented Programming (OOP)&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;Functional Programming (FP)&lt;br /&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Most of the time, it&amp;rsquo;s a mix of all three paradigms. The overall architecture is most of the time object oriented, with small functions with no side effects. It&amp;rsquo;s great to implement the tests first, so I have a guidance while implementing the feature.&lt;/p&gt;
-
-&lt;p&gt;Feel free to contact me &lt;a href=&#34;mailto:gruberbastian@me.com&#34;&gt;over email&lt;/a&gt; and look at my projects at &lt;a href=&#34;https://github.com/gruberb&#34;&gt;GitHub&lt;/a&gt;. If you want to have a detailed CV with projects I&amp;rsquo;ve worked on, have a look at my &lt;a href=&#34;https://de.linkedin.com/in/bastiangruber&#34;&gt;LinkedIn profile&lt;/a&gt;.&lt;/p&gt;
-
-&lt;div class=&#34;bubble&#34;&gt;
-&lt;p&gt;&#34;I had the opportunity to work with Bastian on a client project and he has been an absolute pleasure to work with.
-&lt;br /&gt;
-Besides his great technical and problem solving skills what stood out to me was his drive to build a great product for the end user and to help the team align.
-&lt;br /&gt;
-Bastian has worked in several agile teams before and I could learn a lot from him.
-&lt;br /&gt;
-He is up to date with the bleeding-edge in web development and shares his knowledge left and right. I would love to work with him again and would recommend anyone looking to hire him to not pass on the opportunity.
-&lt;br /&gt;
-The project we worked on he mainly worked with: NodeJs, Angular, MaterialUI, Docker, MicroServices, RabbitMQ, MongoDB, AWS, ElasticSearch.&#34;&lt;/p&gt;
-    &lt;span class=&#34;name&#34;&gt;
-      &lt;a href=&#34;https://www.linkedin.com/in/michael-seidel-a3093351/&#34;&gt;
-        Michael Seidel &lt;br /&gt;Freelance Software Developer
-      &lt;/a&gt;
-    &lt;/span&gt;
-&lt;/div&gt;
-&lt;div class=&#34;bubble&#34;&gt;
-  &lt;p&gt;&#34;I had the chance to work with Bastian in Glispa in different projects. Whether it&#39;s HTML/CSS or Javascript, he&#39;s equally capable to both craft a state-of-the-art web project or to rework an existing one. He has a good critical sense, and he&#39;s capable of finding what&#39;s wrong on interfaces pointing his attention on both UX and UI. It was a pleasure to work with Bastian and I definitely recommend him if you have to make something nice and quickly.&#34;&lt;/p&gt;
-  &lt;span class=&#34;name&#34;&gt;
-    &lt;a href=&#34;https://www.linkedin.com/in/inikolskaya?authType=name&amp;authToken=XXR5&#34;&gt;
-      Irina Nikolskaya &lt;br /&gt;Senior QA Engineer
-    &lt;/a&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-
-&lt;div class=&#34;bubble&#34;&gt;
-  &lt;p&gt;&#34;I had the pleasure of working with Bastian at glispa, collaborating on several projects, including Voltu. I was totally impressed by his ability to juggle multiple projects, it was unlike any I’ve seen before and made a dramatic difference in the productivity and professional level of our team.
-
-  As a person, Bastian has a bright entrepreneurial mindset. He shares his knowledge and constantly improves skills to build meaningful things.
-
-  Bastian would be a true asset to any team, because he is a talented, hard-working and warm co-worker! &#34;&lt;/p&gt;
-  &lt;span class=&#34;name&#34;&gt;
-    &lt;a href=&#34;https://www.linkedin.com/in/andreyorsoev?authType=name&amp;authToken=V55F&#34;&gt;
-      Andrey Orsoev &lt;br /&gt;Senior Software Engineer
-    &lt;/a&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-&lt;div class=&#34;bubble&#34;&gt;
-  &lt;p&gt;&#34;I have had the great pleasure to work with Bastian at smartB long enough to say a couple of things about him. Bastian is curious and self-motivated. He&#39;ll find a way to do things better and improve quality. The challenge from a management perspective is keeping him continuously motivated. As an exceptional developer requires an exceptional management to make sure he is able to deliver software while being challenged to do so. Bastian is a problem solver and someone I would definitely pursue for any company I work for.&#34;&lt;/p&gt;
-  &lt;span class=&#34;name&#34;&gt;
-    &lt;a href=&#34;https://www.linkedin.com/in/jeronimopalacios?authType=name&amp;authToken=wPHz&#34;&gt;
-      Jerónimo Palacios &lt;br /&gt;Agile &amp; Lean Coach
-    &lt;/a&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-</description>
+      <description>That&amp;rsquo;s me, Bastian, a passionate software developer. I am using Go, JavaScript and HTML/CSS to create web applications, and always keen and happy to help a software project to thrive. Next to coding I am a tech writer, mostly for Apple magazines. I also contribute to various german tech magazines. Those two professions let me earn enough money to appreciate and learn other hobbies like photography and improvisation theatre.
+It&amp;rsquo;s hard to define languages and skills, since I am constantly challenged with new architectures, ideas and platforms.</description>
     </item>
     
   </channel>

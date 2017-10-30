@@ -7,7 +7,9 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 08 Oct 2016 14:37:04 +0200</lastBuildDate>
-    <atom:link href="http://gruberbastian.com/categories/golang/index.xml" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="http://gruberbastian.com/categories/golang/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Pet Projects</title>
@@ -15,72 +17,8 @@
       <pubDate>Sat, 08 Oct 2016 14:37:04 +0200</pubDate>
       
       <guid>http://gruberbastian.com/post/projects/</guid>
-      <description>
-
-&lt;p&gt;&lt;img src=&#34;https://image.ibb.co/jTS0Yv/focus.jpg&#34; alt=&#34;picture of Bastian Gruber&#34;/&gt;
-&lt;br /&gt;
-&lt;h2&gt;All the little things&lt;/h2&gt;
-&lt;ul&gt;
-    &lt;li&gt;&lt;a href=&#34;https://github.com/gruberb/CS193P-2016-iOS9&#34;&gt;iOS app: Calculator [Swift]&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&#34;https://github.com/gruberb/firemarksBackend&#34;&gt;Webservice: Bookmarking backend [Golang]&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&#34;https://github.com/gruberb/NumberGuessing&#34;&gt;Command line: Number guessing [Rust]&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&#34;https://github.com/gruberb/ImageRecon&#34;&gt;Command line: Image AI [NodeJS, GoogleVisionAPI]&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&#34;https://github.com/gruberb/TwitterWhoUnfollowedYou&#34;&gt;Command line: Who unfollowed you on twitter? [Python]&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;
-
-&lt;h2&gt;Grown up projects&lt;/h2&gt;
-
-&lt;h3 id=&#34;claudia-castrone-portfolio-a-href-https-github-com-gruberb-ccastrone-portfolio-i-class-fa-fa-github-aria-hidden-true-i-a-a-href-https-clausi-herokuapp-com-i-class-fa-fa-globe-aria-hidden-true-i-a:3c42bb4157bf51d85ae7ffc4e1685909&#34;&gt;Claudia Castrone Portfolio (&lt;a href=&#34;https://github.com/gruberb/ccastrone-portfolio&#34;&gt;&lt;i class=&#34;fa fa-github&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;&lt;/a&gt;|&lt;a href=&#34;https://clausi.herokuapp.com&#34;&gt;&lt;i class=&#34;fa fa-globe&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;&lt;/a&gt;)&lt;/h3&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://preview.ibb.co/jJ8pLk/cc.jpg&#34; title=&#34;cc&#34; /&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Good old jQuery&lt;/li&gt;
-&lt;li&gt;Foundation 6&lt;/li&gt;
-&lt;li&gt;JavaScript&lt;/li&gt;
-&lt;li&gt;HTML5/CSS3&lt;/li&gt;
-&lt;li&gt;Heroku&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;livingroomart-a-href-https-github-com-gruberb-livingroomart-i-class-fa-fa-github-aria-hidden-true-i-a:3c42bb4157bf51d85ae7ffc4e1685909&#34;&gt;LivingRoomArt (&lt;a href=&#34;https://github.com/gruberb/LivingRoomArt&#34;&gt;&lt;i class=&#34;fa fa-github&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;&lt;/a&gt;)&lt;/h3&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://image.ibb.co/cWrSDv/la.png&#34; title=&#34;LivingroomArt&#34;/&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Frontend: AngularJS&lt;/li&gt;
-&lt;li&gt;Backend: NodeJS, ExpressJS, MongoDB&lt;/li&gt;
-&lt;li&gt;Deployment: Heroku&lt;/li&gt;
-&lt;li&gt;FileUpload: Amazon S3&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;opendecision-a-href-https-github-com-gruberb-opendecision-i-class-fa-fa-github-aria-hidden-true-i-a:3c42bb4157bf51d85ae7ffc4e1685909&#34;&gt;OpenDecision (&lt;a href=&#34;https://github.com/gruberb/OpenDecision&#34;&gt;&lt;i class=&#34;fa fa-github&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;&lt;/a&gt;)&lt;/h3&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://image.ibb.co/gUyURF/od.png&#34; title=&#34;OpenDecision&#34;/&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Frontend: AngularJS&lt;/li&gt;
-&lt;li&gt;Backend: NodeJS, ExpressJS, MongoDB&lt;/li&gt;
-&lt;li&gt;Deployment: Heroku&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;chartistdirective-a-href-https-github-com-gruberb-chartistangulardirective-i-class-fa-fa-github-aria-hidden-true-i-a:3c42bb4157bf51d85ae7ffc4e1685909&#34;&gt;ChartistDirective (&lt;a href=&#34;https://github.com/gruberb/chartistAngularDirective&#34;&gt;&lt;i class=&#34;fa fa-github&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;&lt;/a&gt;)&lt;/h3&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://image.ibb.co/diMzRF/ca.png&#34; title=&#34;ChartistDirective&#34;/&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;AngularJS&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;companylunch-a-href-https-github-com-gruberb-companylunch-i-class-fa-fa-github-aria-hidden-true-i-a:3c42bb4157bf51d85ae7ffc4e1685909&#34;&gt;CompanyLunch (&lt;a href=&#34;https://github.com/gruberb/CompanyLunch&#34;&gt;&lt;i class=&#34;fa fa-github&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;&lt;/a&gt;)&lt;/h3&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://image.ibb.co/d3hZtv/rr.png&#34; title=&#34;CompanyLunch&#34;/&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Frontend: ReactJS&lt;/li&gt;
-&lt;li&gt;Backend: NodeJS, ExpressJS, MongoDB&lt;/li&gt;
-&lt;li&gt;Deployment: Heroku&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+      <description> All the little things  iOS app: Calculator [Swift] Webservice: Bookmarking backend [Golang] Command line: Number guessing [Rust] Command line: Image AI [NodeJS, GoogleVisionAPI] Command line: Who unfollowed you on twitter? [Python] 
+Grown up projects Claudia Castrone Portfolio ( | )  Good old jQuery Foundation 6 JavaScript HTML5/CSS3 Heroku  LivingRoomArt ()  Frontend: AngularJS Backend: NodeJS, ExpressJS, MongoDB Deployment: Heroku FileUpload: Amazon S3  OpenDecision ()  Frontend: AngularJS Backend: NodeJS, ExpressJS, MongoDB Deployment: Heroku  ChartistDirective ()  AngularJS  CompanyLunch ()  Frontend: ReactJS Backend: NodeJS, ExpressJS, MongoDB Deployment: Heroku  </description>
     </item>
     
     <item>
@@ -89,79 +27,8 @@
       <pubDate>Mon, 03 Oct 2016 16:37:27 +0200</pubDate>
       
       <guid>http://gruberbastian.com/post/about/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://image.ibb.co/cDiURF/me.jpg&#34; alt=&#34;picture of Bastian Gruber&#34;/&gt;&lt;/p&gt;
-
-&lt;p&gt;That&amp;rsquo;s me, Bastian, a passionate software developer. I am using Go, JavaScript and HTML/CSS to create web applications, and always keen and happy to help a software project to thrive. Next to coding I am a tech writer, mostly for Apple magazines. I also contribute to various german tech magazines. Those two professions let me earn enough money to appreciate and learn other hobbies like photography and improvisation theatre.&lt;/p&gt;
-
-&lt;p&gt;It&amp;rsquo;s hard to define languages and skills, since I am constantly challenged with new architectures, ideas and platforms. But, I am very comfortable using following tools to help your project:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;JavaScript (NodeJS, AngularJS 1 + 2, ReactJS)&lt;/li&gt;
-&lt;li&gt;Go&lt;/li&gt;
-&lt;li&gt;MongoDB&lt;/li&gt;
-&lt;li&gt;Deployment via Docker on AWS (and others like Heroku)&lt;/li&gt;
-&lt;li&gt;Continous deployment and delivery&lt;/li&gt;
-&lt;li&gt;Testing with Jasmine, Mocha, Sinon and ShouldJS&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;I also implement code patterns and &amp;ldquo;behaviours&amp;rdquo;:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Testing first, then implementing the functionality (TDD)&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;Object Oriented Programming (OOP)&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;Functional Programming (FP)&lt;br /&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Most of the time, it&amp;rsquo;s a mix of all three paradigms. The overall architecture is most of the time object oriented, with small functions with no side effects. It&amp;rsquo;s great to implement the tests first, so I have a guidance while implementing the feature.&lt;/p&gt;
-
-&lt;p&gt;Feel free to contact me &lt;a href=&#34;mailto:gruberbastian@me.com&#34;&gt;over email&lt;/a&gt; and look at my projects at &lt;a href=&#34;https://github.com/gruberb&#34;&gt;GitHub&lt;/a&gt;. If you want to have a detailed CV with projects I&amp;rsquo;ve worked on, have a look at my &lt;a href=&#34;https://de.linkedin.com/in/bastiangruber&#34;&gt;LinkedIn profile&lt;/a&gt;.&lt;/p&gt;
-
-&lt;div class=&#34;bubble&#34;&gt;
-&lt;p&gt;&#34;I had the opportunity to work with Bastian on a client project and he has been an absolute pleasure to work with.
-&lt;br /&gt;
-Besides his great technical and problem solving skills what stood out to me was his drive to build a great product for the end user and to help the team align.
-&lt;br /&gt;
-Bastian has worked in several agile teams before and I could learn a lot from him.
-&lt;br /&gt;
-He is up to date with the bleeding-edge in web development and shares his knowledge left and right. I would love to work with him again and would recommend anyone looking to hire him to not pass on the opportunity.
-&lt;br /&gt;
-The project we worked on he mainly worked with: NodeJs, Angular, MaterialUI, Docker, MicroServices, RabbitMQ, MongoDB, AWS, ElasticSearch.&#34;&lt;/p&gt;
-    &lt;span class=&#34;name&#34;&gt;
-      &lt;a href=&#34;https://www.linkedin.com/in/michael-seidel-a3093351/&#34;&gt;
-        Michael Seidel &lt;br /&gt;Freelance Software Developer
-      &lt;/a&gt;
-    &lt;/span&gt;
-&lt;/div&gt;
-&lt;div class=&#34;bubble&#34;&gt;
-  &lt;p&gt;&#34;I had the chance to work with Bastian in Glispa in different projects. Whether it&#39;s HTML/CSS or Javascript, he&#39;s equally capable to both craft a state-of-the-art web project or to rework an existing one. He has a good critical sense, and he&#39;s capable of finding what&#39;s wrong on interfaces pointing his attention on both UX and UI. It was a pleasure to work with Bastian and I definitely recommend him if you have to make something nice and quickly.&#34;&lt;/p&gt;
-  &lt;span class=&#34;name&#34;&gt;
-    &lt;a href=&#34;https://www.linkedin.com/in/inikolskaya?authType=name&amp;authToken=XXR5&#34;&gt;
-      Irina Nikolskaya &lt;br /&gt;Senior QA Engineer
-    &lt;/a&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-
-&lt;div class=&#34;bubble&#34;&gt;
-  &lt;p&gt;&#34;I had the pleasure of working with Bastian at glispa, collaborating on several projects, including Voltu. I was totally impressed by his ability to juggle multiple projects, it was unlike any I’ve seen before and made a dramatic difference in the productivity and professional level of our team.
-
-  As a person, Bastian has a bright entrepreneurial mindset. He shares his knowledge and constantly improves skills to build meaningful things.
-
-  Bastian would be a true asset to any team, because he is a talented, hard-working and warm co-worker! &#34;&lt;/p&gt;
-  &lt;span class=&#34;name&#34;&gt;
-    &lt;a href=&#34;https://www.linkedin.com/in/andreyorsoev?authType=name&amp;authToken=V55F&#34;&gt;
-      Andrey Orsoev &lt;br /&gt;Senior Software Engineer
-    &lt;/a&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-&lt;div class=&#34;bubble&#34;&gt;
-  &lt;p&gt;&#34;I have had the great pleasure to work with Bastian at smartB long enough to say a couple of things about him. Bastian is curious and self-motivated. He&#39;ll find a way to do things better and improve quality. The challenge from a management perspective is keeping him continuously motivated. As an exceptional developer requires an exceptional management to make sure he is able to deliver software while being challenged to do so. Bastian is a problem solver and someone I would definitely pursue for any company I work for.&#34;&lt;/p&gt;
-  &lt;span class=&#34;name&#34;&gt;
-    &lt;a href=&#34;https://www.linkedin.com/in/jeronimopalacios?authType=name&amp;authToken=wPHz&#34;&gt;
-      Jerónimo Palacios &lt;br /&gt;Agile &amp; Lean Coach
-    &lt;/a&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-</description>
+      <description>That&amp;rsquo;s me, Bastian, a passionate software developer. I am using Go, JavaScript and HTML/CSS to create web applications, and always keen and happy to help a software project to thrive. Next to coding I am a tech writer, mostly for Apple magazines. I also contribute to various german tech magazines. Those two professions let me earn enough money to appreciate and learn other hobbies like photography and improvisation theatre.
+It&amp;rsquo;s hard to define languages and skills, since I am constantly challenged with new architectures, ideas and platforms.</description>
     </item>
     
   </channel>
