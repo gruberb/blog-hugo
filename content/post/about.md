@@ -5,31 +5,43 @@ tags = []
 date = "2016-10-03T16:37:27+02:00"
 menu = "main"
 title = "About"
-
 +++
 
 <img src="https://image.ibb.co/cDiURF/me.jpg" alt="picture of Bastian Gruber"/>
 
-That's me, Bastian, a passionate software developer. I am using Go, JavaScript and HTML/CSS to create web applications, and always keen and happy to help a software project to thrive. Next to coding I am a tech writer, mostly for Apple magazines. I also contribute to various german tech magazines. Those two professions let me earn enough money to appreciate and learn other hobbies like photography and improvisation theatre.  
+That's me, Bastian, a passionate software developer. I am using Go, JavaScript and HTML/CSS to create web applications, and always keen and happy to help a software project to thrive. Next to coding I am a tech writer, mostly for Apple magazines. I also contribute to various german tech magazines. Those two professions let me earn enough money to appreciate and learn other hobbies like photography and improvisation theatre.
 
-It's hard to define languages and skills, since I am constantly challenged with new architectures, ideas and platforms. But, I am very comfortable using following tools to help your project:  
+It's hard to define languages and skills, since I am constantly challenged with new architectures, ideas and platforms. But, I am very comfortable using following tools to help your project:
 
-- JavaScript (NodeJS, AngularJS 1 + 2, ReactJS)
+- JavaScript (Node, Angular, React)
 - Go
+- PostgreSQL
 - MongoDB
-- Deployment via Docker on AWS (and others like Heroku)
-- Continous deployment and delivery
+- Docker
+- AWS (Lambda, Cloud53, EC2, ECS...)
+- Continous deployment and delivery (CircleCI, Jenkins, Ansible)
 - Testing with Jasmine, Mocha, Sinon and ShouldJS
 
-I also implement code patterns and "behaviours":  
+I also implement code patterns and "behaviours":
 
-- Testing first, then implementing the functionality (TDD)  
-- Object Oriented Programming (OOP)  
-- Functional Programming (FP)  
+- Testing first, then implementing the functionality (TDD)
+- Object Oriented Programming (OOP)
+- Functional Programming (FP)
 
 Most of the time, it's a mix of all three paradigms. The overall architecture is most of the time object oriented, with small functions with no side effects. It's great to implement the tests first, so I have a guidance while implementing the feature.
 
 Feel free to contact me <a href="mailto:gruberbastian@me.com">over email</a> and look at my projects at <a href="https://github.com/gruberb">GitHub</a>. If you want to have a detailed CV with projects I've worked on, have a look at my <a href="https://de.linkedin.com/in/bastiangruber">LinkedIn profile</a>.
+
+<div class="bubble">
+<p>I had a pleasure to work together with Bastian at Koerber Digital on an IOT application for tables providing analysis of operational data for large factories.
+<br />
+His knowledge of React and Redux was a great addition to our team and I always enjoyed sharing the knowledge and efforts to produce a great quality app. I think we both learned a lot from each other.</p>
+    <span class="name">
+      <a href="https://www.linkedin.com/in/piotrkuczynski/">
+        Piotr Kuczynski <br />Freelance Software Developer
+      </a>
+    </span>
+</div>
 
 <div class="bubble">
 <p>"I had the opportunity to work with Bastian on a client project and he has been an absolute pleasure to work with.
