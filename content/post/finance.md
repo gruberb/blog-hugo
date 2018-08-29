@@ -70,5 +70,5 @@ You can buy shares from lets say Apple, for around 140 Euro per share at the mom
 
 You won't get richt, but with a combination of ETFs, Stocks and the use of RoboAdviser, you can most probably gain a solid 10% return every year from your hard saved money.
 
-Timeframe: It took me around 4 months of daily reading and investigating to feel solid enough to invest small amounts on my own and start to build up small amounts of knowledge of the stock market.
+Timeframe: It took me around 4 months of daily reading and investigating to feel solid enough to invest small amounts on my own money and start to build up small amounts of knowledge about the stock market.
 

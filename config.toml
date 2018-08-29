@@ -5,4 +5,4 @@ theme = "hyde"
 
 [params]
   themeColor = "theme-base-08"
-  description = "Software, Philosophy, Craftsmenship"
+  description = "Software, Philosophy, Craftsmanship"

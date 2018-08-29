@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://gruberbastian.com/post/project-one-month/</loc>
+    <lastmod>2018-08-29T08:00:00+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://gruberbastian.com/post/openmachine/</loc>
     <lastmod>2017-10-30T10:37:04+02:00</lastmod>
   </url>
@@ -49,7 +54,7 @@
   
   <url>
     <loc>http://gruberbastian.com/</loc>
-    <lastmod>2017-10-30T10:37:04+02:00</lastmod>
+    <lastmod>2018-08-29T08:00:00+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -113,6 +118,12 @@
   </url>
   
   <url>
+    <loc>http://gruberbastian.com/categories/learning/</loc>
+    <lastmod>2018-08-29T08:00:00+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://gruberbastian.com/tags/life/</loc>
     <lastmod>2017-02-27T09:51:55+01:00</lastmod>
     <priority>0</priority>
@@ -120,7 +131,13 @@
   
   <url>
     <loc>http://gruberbastian.com/post/</loc>
-    <lastmod>2017-10-30T10:37:04+02:00</lastmod>
+    <lastmod>2018-08-29T08:00:00+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://gruberbastian.com/tags/rust/</loc>
+    <lastmod>2018-08-29T08:00:00+02:00</lastmod>
     <priority>0</priority>
   </url>
   
