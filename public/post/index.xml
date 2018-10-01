@@ -6,19 +6,19 @@
     <description>Recent content in Posts on Bastian Gruber</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 29 Aug 2018 08:00:00 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 01 Oct 2018 08:00:00 +0200</lastBuildDate>
     
 	<atom:link href="http://gruberbastian.com/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Project: One month of focus</title>
+      <title>Project: One month of focus [UPDATE]</title>
       <link>http://gruberbastian.com/post/project-one-month/</link>
-      <pubDate>Wed, 29 Aug 2018 08:00:00 +0200</pubDate>
+      <pubDate>Mon, 01 Oct 2018 08:00:00 +0200</pubDate>
       
       <guid>http://gruberbastian.com/post/project-one-month/</guid>
-      <description>The dilemma of our privilidged and comfortable lifes as software engineers is:
- There are always so many new things to get into and play around with After playing around with them enough, there are thousnads possibilities to earn money with your new skills, or: Join other people with the same interest and just have fun  But also, it&amp;rsquo;s insanely hard after a long day of work to get enough headspace.</description>
+      <description>Update: Since I wrote this blog post, created the second MeetUp for &amp;ldquo;Rust and Tell&amp;rdquo;, something unexpected happened: My daugther was born. Way too early (3 months), so instead of spending September in front of Rust code, I spend around 10 hours a day in the hospital. This being said: The project for October is: Don&amp;rsquo;t have any plans ;)
+The dilemma of our privilidged and comfortable lifes as software engineers is:</description>
     </item>
     
     <item>

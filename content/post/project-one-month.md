@@ -2,9 +2,11 @@
 categories = ["learning"]
 description = ""
 tags = ["rust"]
-date = "2018-08-29T08:00:00+02:00"
-title = "Project: One month of focus"
+date = "2018-10-01T08:00:00+02:00"
+title = "Project: One month of focus [UPDATE]"
 +++
+
+*Update: Since I wrote this blog post, created the second MeetUp for "Rust and Tell", something unexpected happened: My daugther was born. Way too early (3 months), so instead of spending September in front of Rust code, I spend around 10 hours a day in the hospital. This being said: The project for October is: Don't have any plans ;)*
 
 The dilemma of our privilidged and comfortable lifes as software engineers is:
 
