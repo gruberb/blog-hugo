@@ -20,7 +20,7 @@ You sometimes don't even have to read a whole book about programming, sometimes 
 
 *"We control complexity by building abstractions that hide details when appropriate. We control complexity by establishing conventional interfaces that enable us to construct systems by combining standard, well-understood pieces in a ``mix and match'' way. We control complexity by establishing new languages for describing a design, each of which emphasizes particular aspects of the design and deemphasizes others."*
 
-### If there are talks/blog posts about solving a particual problem, then thats rarly the problem to solve
+### If there are talks/blog posts about solving a particual problem, then thats rarely the problem to solve
 
 If there is a common problem to solve within a complex system (like the programming community), and its not yet solved, then   
 
