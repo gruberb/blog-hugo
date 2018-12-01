@@ -58,7 +58,7 @@ const validateuser = () => async (ctx, next) => {
 };
 ```
 
-A typical argument here is: The name validateUser doesn't represent the full behind-the-scenes work done from the function. We have a database call to get the user with the id, if it's not found we return a 404 and if the user is found we add it to the request to have access to it later in the app.
+A typical argument here is: The name `validateUser` doesn't represent the full behind-the-scenes work done from the function. We have a database call to get the `user` with the `id`, if it's not found we return a `404` and if the `user` is found we add it to the `request` to have access to it later in the app.
 
 Because once you created this function, and call it every time on your routes:
 ```
@@ -77,7 +77,7 @@ app
 
 then a future developer in a year from now will look at the code and trying to figure out how to set the user to the request object so he or she can use it later on in the program. The name `validateUser` doesn't indicate at all that the `user` is added to the request object here.
 
-You have to options now:   
+You have two options now:   
 1. Thinking about a better name which includes the behaviour of adding the user to the request object  
 2. Split the function into two or three pieces, and calling it like this:  
 
