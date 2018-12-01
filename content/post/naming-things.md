@@ -22,9 +22,9 @@ You sometimes don't even have to read a whole book about programming, sometimes 
 
 ### If there are talks/blog posts about solving a particual problem, then thats rarly the problem to solve
 
-If there is a common problem to solve within a complex system (like the programming community), and its not yet solved, then 
-a) That's not the problem to solve but has some underlying issue 
-b) Our closed mindset doesn't allow us to think outside of the box to solve the underlaying issue
+If there is a common problem to solve within a complex system (like the programming community), and its not yet solved, then   
+a) That's not the problem to solve but has some underlying issue   
+b) Our closed mindset doesn't allow us to think outside of the box to solve the underlaying issue  
 
 With naming things, my take is we have to handle option a) here. 
 
@@ -32,11 +32,11 @@ With naming things, my take is we have to handle option a) here.
 
 So if we accept that "naming things" is hard and not yet solved, and there are still tons of talks and blog posts about it (red flag), then thats not the actual issue but we need to find the underlaying one. 
 
-If we go one level higher (or deeper, depending on how you see it :)), we got to realise that the abstraction we are trying to hide is
-- not clear to us
-- not obvious and easy to understand
-- has to operate within an already complex, not well understood system (aka code base)
-
+If we go one level higher (or deeper, depending on how you see it :)), we got to realise that the abstraction we are trying to hide is  
+- not clear to us  
+- not obvious and easy to understand  
+- has to operate within an already complex, not well understood system (aka code base)  
+ 
 The problem I encountered in 10 years of programming now is not calling a variable `Scheduler` but `TaskManager`. Maybe the reason is that I am not a native english speaking person, but my guess is that in a clear defined and well architectured code base, I would understand both abstractions and would carry on to the problem I actually have to solve.
 
 However, I encountered two large "naming" problems. 
@@ -77,9 +77,9 @@ app
 
 then a future developer in a year from now will look at the code and trying to figure out how to set the user to the request object so he or she can use it later on in the program. The name `validateUser` doesn't indicate at all that the `user` is added to the request object here.
 
-You have to options now: 
-1. Thinking about a better name which includes the behaviour of adding the user to the request object
-2. Split the function into two or three pieces, and calling it like this:
+You have to options now:   
+1. Thinking about a better name which includes the behaviour of adding the user to the request object  
+2. Split the function into two or three pieces, and calling it like this:  
 
 ```
 app
@@ -105,7 +105,7 @@ Which is more precise and represents actually what it does.
 
 You could call this "naming problems", but I think naming things is actually a writers or poets dilemma, because of audiences and target groups mixed with own feelings and representations of the world.
 
-As a software engineer, you are not a poet. You can sometimes get away with a bit more ugly names (like `checkIfUserExists`), because I much rather read this during my hung for a bug then `validateUser`, since it is:
+As a software engineer, you are not a poet. You can sometimes get away with a bit more ugly names (like `checkIfUserExists`), because I much rather read this during my hunt for a bug then `validateUser`, since it is:
 - Not the solely purpose of the function 
 - Validating is not really happening here since we don't do checks if the user typed in its first and last name and such
 
