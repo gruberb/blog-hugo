@@ -26,13 +26,17 @@ If there is a common problem to solve within a complex system (like the programm
 a) That's not the problem to solve but has some underlying issue   
 b) Our closed mindset doesn't allow us to think outside of the box to solve the underlaying issue  
 
-With naming things, my take is we have to handle option a) here. 
+Why do I believe this? I find parallels within the investment community. There are rarely any undervalued companies out there. Because of the masses of investers and financial advisors, "the market" already priced everything in. Or in other words: The current marekt already represents the best, currently known value.
 
-### Form follows function aka architecture
+Within the programming community, we often think that there are so many difficult problems to solve. But in my day to day work as a software developer, the problems which are not solved yet are hard to solve. Which in the end means: No single book or paradigm can solve them. Rather, you have to build other skills around your knowledge to tackel it from a different angle.
 
-So if we accept that "naming things" is hard and not yet solved, and there are still tons of talks and blog posts about it (red flag), then thats not the actual issue but we need to find the underlaying one. 
+Have you ever tried to google a problem you have and found literally zero results? When this happens it often means that you ran against a wall and have to rethink what you are doing. Because its rarely the case that somebody else didn't solve it yet. 
 
-If we go one level higher (or deeper, depending on how you see it :)), we got to realise that the abstraction we are trying to hide is  
+And I talk here about standard, software project problems and not AI or ML problems which are still a new era. This brings me to "naming things". Since the problem is apparently not solved yet, and there are still blog posts, books and talks about it, and we believe in Mr.Market (here: Mr. Developer Community), which should be so smart to solve problems, then "naming things" is not the problem and rather a sympton of a depper underlying issue.
+
+### Understand *why* we name things
+
+ If we go one level higher (or deeper, depending on how you see it :)), we got to realise that the abstraction we are trying to hide is  
 - not clear to us  
 - not obvious and easy to understand  
 - has to operate within an already complex, not well understood system (aka code base)  
