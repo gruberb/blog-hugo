@@ -143,7 +143,7 @@ You can argue about the "bad" code of course, but the first discussion I was bri
 
 It is about abstracting meaning and knowledge. Also from the <a href="https://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book-Z-H-7.html">preface</a>:
 
-"They should know what not to read, and what they need not understand at any moment. They should feel secure about modifying a program, retaining the spirit and style of the original author." 
+*"They should know what not to read, and what they need not understand at any moment. They should feel secure about modifying a program, retaining the spirit and style of the original author."* 
 
 So if I have a filter to find a specific user:
 
