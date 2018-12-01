@@ -165,9 +165,9 @@ Some people might say "Don't call it `a` in the filter but `filteredUser` or som
 
 You can argue to abstract the `db` access and make it obvious that it's a bit expensive to run this, but it has nothing to do with the name of the method nor the name of the variable inside the filter. 
 
-So the problem is not to give something a name. You don't "create classes" or "write functions". No, you compose systems. Within those systems you want to reduce the headspace for each participant to read every single line of code to understand what's going on. 
-
 ### Summary
+
+So the problem is not to give something a name. You don't "create classes" or "write functions". No, you compose systems. Within those systems you want to reduce the headspace for each participant to read every single line of code to understand what's going on. Therefore you bundle meaningful parts of the code, hide it inside a file, method or variable and then name it accordingly so the other developer knows what this part does without even looking at it.
 
 To go back to my previous statement: It's not about naming but "something else", an underlaying issue. The underlaying issue is most of the time the understanding of the system by the developer. If you get hired to do a project or join a company and have to contribute code on your first day: It's never about your ability to name things. It's much harder then that. It's understanding what the code you wrote does, what it should express.
 
