@@ -8,11 +8,11 @@ date = "2018-12-01T09:51:55+01:00"
 
 Each system has its own believes and "common truths". With system, I mean areas or professions. Education, Science, cooking etc. Each place where people come together and build a closed system where they operate in. From within, it's almost impossible to change a system, it's just possible from the outside and by letting the old system die and create parallel to that a new one.
 
-Programming is a system for me. With its own paradigms, models and behaviours. One commin believe is that "naming things" is hard. And I followed along, had big arguments about how and what to name variables, methods, classes and whatnot. 
+Programming is a system for me. With its own paradigms, models and behaviours. One common believe is that "naming things" is hard. And so far I followed along, had big arguments about how and what to name variables, methods, classes and whatnot. 
 
-Though, at my current projected I encouterned something strange: I reviewed a Pull Request from a team mate and suggested a name change. The person commented a few minutes later and said: "I don't particularly care about the name, so I'll change it and update the PR." 
+Though, at my current projected I encountered something strange: I reviewed a Pull Request from a team mate and suggested a name change. The person commented a few minutes later and said: "I don't particularly care about the name, so I'll change it and update the PR." 
 
-I was a bit buffled. Since in my head it was not about the name but what the variable represented. I did a bit of thinking since then and figured out common misconceptions about naming things. <a href="https://www.slideshare.net/pirhilton/how-to-name-things-the-hardest-problem-in-programming">Some people go even so far to take advice from famous writers about how to name things</a>.
+I was a bit baffled. Since in my head it was not about the name but what the variable represented. I did a bit of thinking since then and figured out common misconceptions about naming things. <a href="https://www.slideshare.net/pirhilton/how-to-name-things-the-hardest-problem-in-programming">Some people go even so far to take advice from famous writers about how to name things</a>.
 
 Which, in the end, is not the point. 
 
@@ -23,22 +23,23 @@ You sometimes don't even have to read a whole book about programming, sometimes 
 ### If there are talks/blog posts about solving a particual problem, then thats rarly the problem to solve
 
 If there is a common problem to solve within a complex system (like the programming community), and its not yet solved, then   
+
 a) That's not the problem to solve but has some underlying issue   
 b) Our closed mindset doesn't allow us to think outside of the box to solve the underlaying issue  
 
-Why do I believe this? I find parallels within the investment community. There are rarely any undervalued companies out there. Because of the masses of investers and financial advisors, "the market" already priced everything in. Or in other words: The current marekt already represents the best, currently known value.
+Why do I believe this? I find parallels within the investment community. There are rarely undervalued companies out there. Because of the masses of investors and financial advisors, "the market" already priced everything in. Or in other words: The current marekt already represents the best, currently known value.
 
 Within the programming community, we often think that there are so many difficult problems to solve. But in my day to day work as a software developer, the problems which are not solved yet are hard to solve. Which in the end means: No single book or paradigm can solve them. Rather, you have to build other skills around your knowledge to tackel it from a different angle.
 
 Have you ever tried to google a problem you have and found literally zero results? When this happens it often means that you ran against a wall and have to rethink what you are doing. Because its rarely the case that somebody else didn't solve it yet. 
 
-And I talk here about standard, software project problems and not AI or ML problems which are still a new era. This brings me to "naming things". Since the problem is apparently not solved yet, and there are still blog posts, books and talks about it, and we believe in Mr.Market (here: Mr. Developer Community), which should be so smart to solve problems, then "naming things" is not the problem and rather a sympton of a depper underlying issue.
+And I talk here about standard, software project problems and not AI or ML problems which are still a new era. This brings me to "naming things". Since the problem is apparently not solved yet, and there are still blog posts, books and talks about it, and we believe in Mr.Market (here: Mr. Developer Community), which should be so smart to solve problems, then "naming things" is not the problem and rather a sympton of a depper, underlying issue.
 
 ### Examples
 
- The problem I encountered in 10 years of programming now is not calling a variable `Scheduler` but `TaskManager`. Maybe the reason is that I am not a native english speaking person, but my guess is that in a clear defined and well architectured code base, I would understand both abstractions and would carry on to the problem I actually have to solve.
+ The problem I encountered in 10 years of programming now is **not** calling a variable `Scheduler` or `TaskManager`. Maybe the reason is that I am not a native english speaking person, but my guess is that in a clear defined and well architectured code base, I would understand both abstractions and would carry on to the problem I actually have to solve.
 
-However, I encountered two large "naming" problems. 
+I encountered however two large "naming" problems lately which I think explain the real problem really well. 
 
 1.Calling a NodeJS/koa middleware `validateUser()` with the following signature:
 
