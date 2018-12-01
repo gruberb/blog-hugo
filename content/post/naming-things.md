@@ -172,8 +172,6 @@ So the problem is not to give something a name. You don't "create classes" or "w
 
 To go back to my previous statement: It's not about naming but "something else", an underlaying issue. The underlaying issue is most of the time the understanding of the system by the developer. If you get hired to do a project or join a company and have to contribute code on your first day: It's never about your ability to name things. It's much harder then that. It's understanding what the code you wrote does, what it should express.
 
-Always remember: You don't name things, you abstract meaning. Which is much harder to do. But once you are realsing this task, you will write more precise code, ask more questions along the way and treat the code base what it is: A construction manual for the developer who joins the project in 5 years and has no idea why certain things happen.
-
-But if you have one goal in mind, **to abstract meaning**, then your code will be more precise, you will naturally use smaller methods and functions, and you will have a gut feeling of when to stop using OOP and put a combination of functional programming and classes to use. 
+Always remember: You don't name things, **you abstract meaning**. Which is much harder to do. But once you are realsing this fact, you will write more precise code, ask more questions along the way and treat the code base what it is: A construction manual for the developer who joins the project in 5 years and has no idea why certain things happen. **And then, to find a name for this abstraction is a rather easy task.**
 
 Bad names will come harder to your mind, because if you look at your produced code you will know what you abstracted and why. 
