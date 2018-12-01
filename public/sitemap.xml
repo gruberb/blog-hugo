@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://gruberbastian.com/post/naming-things/</loc>
+    <lastmod>2018-12-01T09:51:55+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://gruberbastian.com/post/project-one-month/</loc>
     <lastmod>2018-10-01T08:00:00+02:00</lastmod>
   </url>
@@ -54,7 +59,7 @@
   
   <url>
     <loc>http://gruberbastian.com/</loc>
-    <lastmod>2018-10-01T08:00:00+02:00</lastmod>
+    <lastmod>2018-12-01T09:51:55+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -65,7 +70,7 @@
   
   <url>
     <loc>http://gruberbastian.com/tags/coding/</loc>
-    <lastmod>2017-05-04T18:37:04+02:00</lastmod>
+    <lastmod>2018-12-01T09:51:55+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -131,7 +136,7 @@
   
   <url>
     <loc>http://gruberbastian.com/post/</loc>
-    <lastmod>2018-10-01T08:00:00+02:00</lastmod>
+    <lastmod>2018-12-01T09:51:55+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -143,7 +148,7 @@
   
   <url>
     <loc>http://gruberbastian.com/tags/</loc>
-    <lastmod>2017-05-04T18:37:04+02:00</lastmod>
+    <lastmod>2018-12-01T09:51:55+01:00</lastmod>
     <priority>0</priority>
   </url>
   

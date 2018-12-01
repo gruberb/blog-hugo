@@ -4,7 +4,6 @@ Description = ""
 Tags = ["coding"]
 Categories = []
 date = "2018-12-01T09:51:55+01:00"
-draft = true
 +++
 
 Each system has its own believes and "common truths". With system, I mean areas or professions. Education, Science, cooking etc. Each place where people come together and build a closed system where they operate in. From within, it's almost impossible to change a system, it's just possible from the outside and by letting the old system die and create parallel to that a new one.

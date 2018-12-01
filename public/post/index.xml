@@ -6,10 +6,20 @@
     <description>Recent content in Posts on Bastian Gruber</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 01 Oct 2018 08:00:00 +0200</lastBuildDate>
+    <lastBuildDate>Sat, 01 Dec 2018 09:51:55 +0100</lastBuildDate>
     
 	<atom:link href="http://gruberbastian.com/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>The easiest part of programming: Naming things</title>
+      <link>http://gruberbastian.com/post/naming-things/</link>
+      <pubDate>Sat, 01 Dec 2018 09:51:55 +0100</pubDate>
+      
+      <guid>http://gruberbastian.com/post/naming-things/</guid>
+      <description>Each system has its own believes and &amp;ldquo;common truths&amp;rdquo;. With system, I mean areas or professions. Education, Science, cooking etc. Each place where people come together and build a closed system where they operate in. From within, it&amp;rsquo;s almost impossible to change a system, it&amp;rsquo;s just possible from the outside and by letting the old system die and create parallel to that a new one.
+Programming is a system for me.</description>
+    </item>
     
     <item>
       <title>Project: One month of focus [UPDATE]</title>
