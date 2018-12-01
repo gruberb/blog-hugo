@@ -29,7 +29,7 @@ b) Our closed mindset doesn't allow us to think outside of the box to solve the 
 
 Why do I believe this? I find parallels within the investment community. There are rarely undervalued companies out there. Because of the masses of investors and financial advisors, "the market" already priced everything in. Or in other words: The current marekt already represents the best, currently known value.
 
-Within the programming community, we often think that there are so many difficult problems to solve. But in my day to day work as a software developer, the problems which are not solved yet are hard to solve. Which in the end means: No single book or paradigm can solve them. Rather, you have to build other skills around your knowledge to tackel it from a different angle.
+Within the programming community, we often think that there are so many difficult problems to solve. But in my day to day work as a software developer, the problems which are not solved yet are hard to solve. Which in the end means: No single book or paradigm can solve them. Rather, you have to build other skills around your knowledge to tackle it from a different angle.
 
 Have you ever tried to google a problem you have and found literally zero results? When this happens it often means that you ran against a wall and have to rethink what you are doing. Because its rarely the case that somebody else didn't solve it yet. 
 
