@@ -34,14 +34,9 @@ Have you ever tried to google a problem you have and found literally zero result
 
 And I talk here about standard, software project problems and not AI or ML problems which are still a new era. This brings me to "naming things". Since the problem is apparently not solved yet, and there are still blog posts, books and talks about it, and we believe in Mr.Market (here: Mr. Developer Community), which should be so smart to solve problems, then "naming things" is not the problem and rather a sympton of a depper underlying issue.
 
-### Understand *why* we name things
+### Examples
 
- If we go one level higher (or deeper, depending on how you see it :)), we got to realise that the abstraction we are trying to hide is  
-- not clear to us  
-- not obvious and easy to understand  
-- has to operate within an already complex, not well understood system (aka code base)  
- 
-The problem I encountered in 10 years of programming now is not calling a variable `Scheduler` but `TaskManager`. Maybe the reason is that I am not a native english speaking person, but my guess is that in a clear defined and well architectured code base, I would understand both abstractions and would carry on to the problem I actually have to solve.
+ The problem I encountered in 10 years of programming now is not calling a variable `Scheduler` but `TaskManager`. Maybe the reason is that I am not a native english speaking person, but my guess is that in a clear defined and well architectured code base, I would understand both abstractions and would carry on to the problem I actually have to solve.
 
 However, I encountered two large "naming" problems. 
 
@@ -144,6 +139,14 @@ module.exports = {
 You can argue about the "bad" code of course, but the first discussion I was bringing up was: The method `user.init()` doesn't init the user but is just setting roles. You can call this "discussing about names" but in my view, it's not about naming, it's about abstracting meaning so I don't have to look behind the abstraction any more. And of course, the method `init` is just a typical `setter` of a class so lets rename it to `setRoles` and done. 
 
 ### The purpose of naming things in Programming
+
+So if we name variables or methods and another developer comes along and has no clue what's behind this badly named thing, then we named somethings which was:
+  
+- not clear to us  
+- not obvious and easy to understand  
+- has to operate within an already complex, not well understood system (aka code base) 
+
+Naming things is not to find real world use cases and name the created variable or business logic accordingly.
 
 It is about abstracting meaning and knowledge. Also from the <a href="https://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book-Z-H-7.html">preface</a>:
 
