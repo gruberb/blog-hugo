@@ -40,7 +40,7 @@ And I talk here about standard, software project problems and not AI or ML probl
 
 However, I encountered two large "naming" problems. 
 
-1. Calling a NodeJS/koa middleware `validateUser()` with the following signature:
+1.Calling a NodeJS/koa middleware `validateUser()` with the following signature:
 
 ```
 const validateuser = () => async (ctx, next) => {
@@ -77,8 +77,8 @@ app
 then a future developer in a year from now will look at the code and trying to figure out how to set the user to the request object so he or she can use it later on in the program. The name `validateUser` doesn't indicate at all that the `user` is added to the request object here.
 
 You have two options now:   
-1. Thinking about a better name which includes the behaviour of adding the user to the request object  
-2. Split the function into two or three pieces, and calling it like this:  
+- Thinking about a better name which includes the behaviour of adding the user to the request object  
+- Split the function into two or three pieces, and calling it like this:  
 
 ```
 app
@@ -108,7 +108,7 @@ As a software engineer, you are not a poet. You can sometimes get away with a bi
 - Not the solely purpose of the function  
 - Validating is not really happening here since we don't do checks if the user typed in its first and last name and such  
 
-2. My second "naming" problem was the following:
+2.My second "naming" problem was the following:
 
 ```
 class User {
