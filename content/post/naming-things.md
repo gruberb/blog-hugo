@@ -105,9 +105,9 @@ Which is more precise and represents actually what it does.
 
 You could call this "naming problems", but I think naming things is actually a writers or poets dilemma, because of audiences and target groups mixed with own feelings and representations of the world.
 
-As a software engineer, you are not a poet. You can sometimes get away with a bit more ugly names (like `checkIfUserExists`), because I much rather read this during my hunt for a bug then `validateUser`, since it is:
-- Not the solely purpose of the function 
-- Validating is not really happening here since we don't do checks if the user typed in its first and last name and such
+As a software engineer, you are not a poet. You can sometimes get away with a bit more ugly names (like `checkIfUserExists`), because I much rather read this during my hunt for a bug then `validateUser`, since it is:  
+- Not the solely purpose of the function  
+- Validating is not really happening here since we don't do checks if the user typed in its first and last name and such  
 
 2. My second "naming" problem was the following:
 
