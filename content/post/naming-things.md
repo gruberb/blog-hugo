@@ -154,7 +154,7 @@ const findUser = (id) => {
 }
 ```
 
-Some people might say "Don't call it `a` in the filter but `filteredUser` or something like that. But my take is: I will probably never ever touch this method again. It's small, it's precise, and sort of nice looking. A developer who comes into the project in a year from now immediately knows what's going on and she can use this method without second guessing. 
+Some people might say "Don't call it `a` in the filter but `filteredUser` or something like that". But my take is: I will probably never ever touch this method again. It's small, it's precise, and sort of nice looking. A developer who comes into the project in a year from now immediately knows what's going on and she can use this method without second guessing. 
 
 You can argue to abstract the db access and make it obvious that it's a bit expensive to run this, but it has nothing to do with the name of the method nor the name of the variable inside the filter. 
 
