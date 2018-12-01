@@ -33,7 +33,7 @@ Within the programming community, we often think that there are so many difficul
 
 Have you ever tried to google a problem you have and found literally zero results? When this happens it often means that you ran against a wall and have to rethink what you are doing. Because its rarely the case that somebody else didn't solve it yet. 
 
-And I talk here about standard, software project problems and not AI or ML problems which are still a new era. This brings me to "naming things". Since the problem is apparently not solved yet, and there are still blog posts, books and talks about it, and we believe in Mr.Market (here: Mr. Developer Community), which should be so smart to solve problems, then "naming things" is not the problem and rather a sympton of a depper, underlying issue.
+And I talk here about standard, software project problems and not AI or ML problems which are still a new era. This brings me to "naming things". Since the problem is apparently not solved yet, and there are still blog posts, books and talks about it, and we believe in Mr.Market (here: Mr. Developer Community), which should be so smart to solve problems, then "naming things" is not the problem and rather a sympton of a deeper, underlying issue.
 
 ### Examples
 
