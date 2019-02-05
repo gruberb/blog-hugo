@@ -13,14 +13,15 @@ That's me, Bastian, a passionate software developer. I am using Go, JavaScript a
 
 It's hard to define languages and skills, since I am constantly challenged with new architectures, ideas and platforms. But, I am very comfortable using following tools to help your project:
 
-- JavaScript (Node, Angular, React)
+- NodeJS
+- React
+- Rust
 - Go
 - PostgreSQL
 - MongoDB
 - Docker
 - AWS (Lambda, Cloud53, EC2, ECS...)
-- Continous deployment and delivery (CircleCI, Jenkins, Ansible)
-- Testing with Jasmine, Mocha, Sinon and ShouldJS
+- Continous deployment and delivery (CircleCI, Jenkins)
 
 I also implement code patterns and "behaviours":
 
