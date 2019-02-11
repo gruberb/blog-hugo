@@ -79,14 +79,14 @@
   </url>
   
   <url>
-    <loc>http://gruberbastian.com/categories/coding/</loc>
-    <lastmod>2017-05-04T18:37:04+02:00</lastmod>
+    <loc>http://gruberbastian.com/tags/coding/</loc>
+    <lastmod>2018-12-01T09:51:55+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://gruberbastian.com/tags/coding/</loc>
-    <lastmod>2018-12-01T09:51:55+01:00</lastmod>
+    <loc>http://gruberbastian.com/categories/coding/</loc>
+    <lastmod>2017-05-04T18:37:04+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -97,25 +97,25 @@
   </url>
   
   <url>
-    <loc>http://gruberbastian.com/categories/devops/</loc>
-    <lastmod>2016-12-12T20:37:04+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>http://gruberbastian.com/tags/devops/</loc>
     <lastmod>2016-12-12T20:37:04+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://gruberbastian.com/categories/diy/</loc>
-    <lastmod>2017-10-30T10:37:04+02:00</lastmod>
+    <loc>http://gruberbastian.com/categories/devops/</loc>
+    <lastmod>2016-12-12T20:37:04+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://gruberbastian.com/tags/diy/</loc>
+    <lastmod>2017-10-30T10:37:04+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://gruberbastian.com/categories/diy/</loc>
     <lastmod>2017-10-30T10:37:04+02:00</lastmod>
     <priority>0</priority>
   </url>
@@ -169,13 +169,13 @@
   </url>
   
   <url>
-    <loc>http://gruberbastian.com/categories/travelling/</loc>
+    <loc>http://gruberbastian.com/tags/travelling/</loc>
     <lastmod>2016-12-01T14:37:04+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://gruberbastian.com/tags/travelling/</loc>
+    <loc>http://gruberbastian.com/categories/travelling/</loc>
     <lastmod>2016-12-01T14:37:04+02:00</lastmod>
     <priority>0</priority>
   </url>
